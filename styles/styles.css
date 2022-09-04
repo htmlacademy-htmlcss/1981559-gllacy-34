@@ -84,6 +84,7 @@ body {
 .main-header {
   display: flex;
   justify-content: space-between;
+  margin-top: 24px;
 }
 
 .logo {
@@ -122,6 +123,31 @@ body {
 /*User container*/
 .user-container {
   display: flex;
+  gap: 16px;
+}
+
+.user-button {
+  font-family: "Inter", sans-serif;
+  font-size: 14px;
+  line-height: 20px;
+  color: #2d3440;
+  padding: 0;
+  border: none;
+  background-color: rgba(252, 252, 252, 0.3);
+  border-radius: 30px;
+  min-width: 32px;
+  min-height: 32px;
+  cursor: pointer;
+  padding: 6px 16px;
+  display: flex;
+}
+
+/*Номер телефона*/
+.contact-number {
+  font-weight: 700;
+  line-height: 20px;
+  color: #2d3440;
+  text-decoration: none;
 }
 
 /*Поле поиска*/
