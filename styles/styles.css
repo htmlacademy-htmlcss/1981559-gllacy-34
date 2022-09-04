@@ -118,3 +118,28 @@ body {
 .navigation-wrapper-popover {
   display: none;
 }
+
+/*User container*/
+.user-container {
+  display: flex;
+}
+
+/*Поле поиска*/
+.search-form {
+  display: none;
+}
+
+/*Поля ввода логина и пароля*/
+.login-popover {
+  display: none;
+}
+
+/*Выбранные товары в корзине*/
+.recycle-bin-popover {
+  display: none;
+}
+
+/*Пустая корзина*/
+.recycle-bin-empty {
+  display: none;
+}
