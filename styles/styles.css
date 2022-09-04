@@ -63,6 +63,8 @@ body {
 .page-container {
   width: 1170px;
   margin: 0 auto;
+  padding-left: 98px;
+  padding-right: 98px;
 }
 
 /*Цвет фона страницы*/
@@ -76,4 +78,14 @@ body {
 
 .body-background-yellow {
   background-color: #fcc850;
+}
+
+/*Header*/
+.main-header {
+  display: flex;
+  justify-content: space-between;
+}
+
+.navigation {
+  display: flex;
 }
