@@ -24,6 +24,7 @@
 
 <!--          Ссылки навигации по сайту-->
           <ul class="navigation-list">
+<!--            Кнопка со списком каталога-->
             <li class="navigation-item navigation-button-wrapper">
               <button class="navigation-button" type="button">
                 Каталог
@@ -55,12 +56,12 @@
               <a class="navigation-link" href="#">О&nbsp;компании</a>
             </li>
           </ul>
-
         </nav>
 
         <div class="user-container">
           <a class="contact-number" href="tel:+78005558628">+7 800 555-86-28</a>
 
+<!--          Кнопка поповера поиска-->
           <div class="search-container">
             <button class="search-container-button" type="button">
               <svg width="14" height="14" fill="currentColor" xmlns="http://www.w3.org/2000/svg"><path fill-rule="evenodd" clip-rule="evenodd" d="M1.66 6.19a4.67 4.67 0 1 1 9.34 0 4.67 4.67 0 0 1-9.34 0Zm8.42 4.69a6 6 0 1 1 .94-.94l2.45 2.44a.67.67 0 1 1-.94.95l-2.45-2.45Z"/></svg>
@@ -71,6 +72,7 @@
             </form>
           </div>
 
+<!--          Login container-->
           <div class="login-container">
             <button class="login-button" type="button">
               <svg width="16" height="17" fill="currentColor" xmlns="http://www.w3.org/2000/svg"><path fill-rule="evenodd" clip-rule="evenodd" d="M9 2.5246a.6667.6667 0 0 1 .6667-.6667h2.6666a1.9997 1.9997 0 0 1 2 2v9.3333a2 2 0 0 1-2 2H9.6667a.6666.6666 0 1 1 0-1.3333h2.6666a.6664.6664 0 0 0 .4714-.1953.6662.6662 0 0 0 .1953-.4714V3.8579a.6664.6664 0 0 0-.6667-.6667H9.6667A.6667.6667 0 0 1 9 2.5246ZM5.8619 4.7198a.6667.6667 0 0 1 .9428 0l3.3291 3.3291a.6627.6627 0 0 1 .129.177.664.664 0 0 1 .0705.2987.6636.6636 0 0 1-.1998.4759l-3.3288 3.3288a.6667.6667 0 1 1-.9428-.9428L8.057 9.1912H1.6668a.6667.6667 0 1 1 0-1.3333h6.3905L5.8619 5.6627a.6667.6667 0 0 1 0-.9429Z"/></svg>
@@ -82,6 +84,7 @@
             </div>
           </div>
 
+<!--          Recycle-bin-->
           <div class="recycle-bin-container">
             <button class="recycle-bin-button" type="button">
               <svg width="15" height="14" fill="currentColor" xmlns="http://www.w3.org/2000/svg"><path fill-rule="evenodd" clip-rule="evenodd" d="M1.16667.10791C.79847.10791.5.40639.5.77458c0 .36819.29848.66666.66667.66666h1.77127l.46743 2.33539a.66396.66396 0 0 0 .01063.0531l.96738 4.83333.00012.00056a1.82553 1.82553 0 0 0 .64571 1.06582 1.82555 1.82555 0 0 0 1.17262.40326h5.62067a1.82572 1.82572 0 0 0 1.1727-.40326 1.82587 1.82587 0 0 0 .6458-1.06638l.001-.00499.9271-4.86144a.6669.6669 0 0 0-.1412-.54985.66678.66678 0 0 0-.5137-.24171H4.61072L4.1381.64374C4.07574.33217 3.80215.1079 3.4844.1079H1.16667Zm4.52431 8.29444-.81339-4.06394h8.23081l-.7756 4.06686a.4923.4923 0 0 1-.1737.28555.4923.4923 0 0 1-.3181.10871V8.7994H6.19614v-.00012l-.01277.00025a.49218.49218 0 0 1-.4922-.39622l-.00019-.00096ZM4.55739 12.3633c0-.6879.55771-1.2456 1.24568-1.2456.68798 0 1.24569.5577 1.24569 1.2456 0 .688-.55771 1.2457-1.24569 1.2457-.68797 0-1.24568-.5577-1.24568-1.2457Zm6.37331 0c0-.6879.5577-1.2456 1.2457-1.2456.688 0 1.2457.5577 1.2457 1.2456 0 .688-.5577 1.2457-1.2457 1.2457-.688 0-1.2457-.5577-1.2457-1.2457Z"/></svg>
@@ -89,7 +92,28 @@
             </button>
             <div class="recycle-bin-popover">
               <h2 class="popover-title">Корзина</h2>
-              <ul class=""
+              <ul class="recycle-bin-list">
+                <li class="recycle-bin-item">
+                  <img class="recycle-bin-image" src="images/header/recycle-bin/raspberry.jpg" width="46" height="46" alt="">
+                  <p class="cart-item-name">Малинка</p>
+                  <p class="cart-item-weight">1 кг х 310 ₽</p>
+                  <p class="cart-price">310 ₽</p>
+                  <button class="cart-delete-button" type="button">
+                    <svg width="10" height="10" fill="currentColor" xmlns="http://www.w3.org/2000/svg"><path fill-rule="evenodd" clip-rule="evenodd" d="M9.80303 1.13807c.26037-.260348.26037-.682458 0-.942808-.26035-.26035-.68246-.26035-.94281 0L4.99914 4.05633 1.13807.195262c-.260348-.26035-.682458-.26035-.942808 0-.26035.26035-.26035.68246 0 .942808L4.05633 4.99914.195262 8.86022c-.26035.26035-.26035.68246 0 .94281.26035.26037.68246.26037.942808 0l3.86107-3.86108 3.86108 3.86108c.26035.26037.68246.26037.94281 0 .26037-.26035.26037-.68246 0-.94281L5.94195 4.99914l3.86108-3.86107Z"/></svg>
+                    <span class="visually-hidden">Закрыть.</span></button>
+                </li>
+                <li class="recycle-bin-item">
+                  <img class="recycle-bin-image" src="images/header/recycle-bin/bubble-gum.jpg" width="46" height="46" alt="">
+                  <p class="cart-item-name">Бабл-гам</p>
+                  <p class="cart-item-weight">1,5 кг х 320 ₽</p>
+                  <p class="cart-price">480 ₽</p>
+                  <button class="cart-delete-button" type="button">
+                    <svg width="10" height="10" fill="currentColor" xmlns="http://www.w3.org/2000/svg"><path fill-rule="evenodd" clip-rule="evenodd" d="M9.80303 1.13807c.26037-.260348.26037-.682458 0-.942808-.26035-.26035-.68246-.26035-.94281 0L4.99914 4.05633 1.13807.195262c-.260348-.26035-.682458-.26035-.942808 0-.26035.26035-.26035.68246 0 .942808L4.05633 4.99914.195262 8.86022c-.26035.26035-.26035.68246 0 .94281.26035.26037.68246.26037.942808 0l3.86107-3.86108 3.86108 3.86108c.26035.26037.68246.26037.94281 0 .26037-.26035.26037-.68246 0-.94281L5.94195 4.99914l3.86108-3.86107Z"/></svg>
+                    <span class="visually-hidden">Закрыть.</span></button>
+                </li>
+              </ul>
+              <button class="submit-popover-button" type="submit">Оформить заказ</button>
+              <p class="total-price">Итого: 790 ₽</p>
             </div>
           </div>
 
