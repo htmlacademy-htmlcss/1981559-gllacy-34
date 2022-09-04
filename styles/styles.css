@@ -64,3 +64,16 @@ body {
   width: 1170px;
   margin: 0 auto;
 }
+
+/*Цвет фона страницы*/
+.body-background-pink {
+  background-color: #feafc3;
+}
+
+.body-background-blue {
+  background-color: #69a9ff;
+}
+
+.body-background-yellow {
+  background-color: #fcc850;
+}
