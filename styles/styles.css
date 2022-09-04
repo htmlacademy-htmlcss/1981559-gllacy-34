@@ -142,6 +142,18 @@ body {
   display: flex;
 }
 
+.user-button:hover {
+  background-color: rgba(252, 252, 252, 0.5);
+}
+
+.user-button:active {
+  background-color: #fcfcfc;
+}
+
+.user-button:focus-visible {
+  outline: 2px solid #000000;;
+}
+
 /*Номер телефона*/
 .contact-number {
   font-weight: 700;
