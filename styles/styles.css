@@ -101,7 +101,6 @@ body {
   margin: 0;
   padding: 0;
   display: flex;
-  gap: 32px;
 }
 
 .navigation-link {
@@ -112,9 +111,24 @@ body {
   background-color: transparent;
   border: none;
   text-decoration: none;
-  padding: 0;
   cursor: pointer;
+  padding: 8px 16px;
 }
+
+.navigation-link:hover {
+  opacity: 0.6;
+}
+
+.navigation-link:active {
+  opacity: 0.3;
+}
+
+.navigation-link:focus-visible {
+  outline: 2px solid #000000;
+  border-radius: 30px;
+}
+
+
 
 .navigation-wrapper-popover {
   display: none;
@@ -131,7 +145,6 @@ body {
   font-size: 14px;
   line-height: 20px;
   color: #2d3440;
-  padding: 0;
   border: none;
   background-color: rgba(252, 252, 252, 0.3);
   border-radius: 30px;
