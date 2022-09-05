@@ -88,7 +88,7 @@ body {
 }
 
 .logo {
-  margin-right: 32px;
+  margin-right: 17px;
 }
 
 /*Навигация*/
@@ -98,7 +98,7 @@ body {
 
 .navigation-list {
   list-style-type: none;
-  margin: 0;
+  margin: 10px 0 0 0;
   padding: 0;
   display: flex;
 }
@@ -113,6 +113,7 @@ body {
   text-decoration: none;
   cursor: pointer;
   padding: 8px 16px;
+  display: block;
 }
 
 .navigation-link:hover {
@@ -128,8 +129,6 @@ body {
   border-radius: 30px;
 }
 
-
-
 .navigation-wrapper-popover {
   display: none;
 }
@@ -138,6 +137,7 @@ body {
 .user-container {
   display: flex;
   gap: 16px;
+  margin-top: 12px;
 }
 
 .user-button {
@@ -167,12 +167,22 @@ body {
   outline: 2px solid #000000;;
 }
 
+.search-container-button {
+  width: 32px;
+  height: 32px;
+  padding: 0;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
 /*Номер телефона*/
 .contact-number {
   font-weight: 700;
   line-height: 20px;
   color: #2d3440;
   text-decoration: none;
+  margin-top: 6px;
 }
 
 /*Поле поиска*/
