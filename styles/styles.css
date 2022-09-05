@@ -233,6 +233,7 @@ body {
   outline: 2px solid #000000;;
 }
 
+/*Поле поиска*/
 .search-container {
   position: relative;
 }
@@ -244,24 +245,6 @@ body {
   display: flex;
   justify-content: center;
   align-items: center;
-}
-
-.login-button {
-  display: flex;
-  gap: 6px;
-}
-
-.login-button svg{
-  margin-top: 1px;
-}
-
-.recycle-bin-button {
-  display: flex;
-  gap: 8px;
-}
-
-.recycle-bin-button svg{
-  margin-top: 3px;
 }
 
 /*Номер телефона*/
@@ -348,6 +331,15 @@ body {
 }
 
   /*Поля ввода логина и пароля*/
+.login-button {
+  display: flex;
+  gap: 6px;
+}
+
+.login-button svg{
+  margin-top: 1px;
+}
+
 .login-container {
   position: relative;
 }
@@ -365,17 +357,18 @@ body {
   top: 40px;
 }
 
-.popover-title {
-  line-height: 30px;
-  margin: 0 0 32px;
-  color: #2d3440;
-}
-
 .login-input {
   padding: 13px 16px;
   margin-bottom: 16px;
   width: 324px;
   box-sizing: border-box;
+}
+
+/*Popovers*/
+.popover-title {
+  line-height: 30px;
+  margin: 0 0 32px;
+  color: #2d3440;
 }
 
 .password-input {
@@ -425,7 +418,16 @@ body {
   outline-color: rgba(185, 185, 185, 0.3);
 }
 
-/*Выбранные товары в корзине*/
+/*Корзина*/
+.recycle-bin-button {
+  display: flex;
+  gap: 8px;
+}
+
+.recycle-bin-button svg{
+  margin-top: 3px;
+}
+
 .recycle-bin-popover {
   display: none;
 }
