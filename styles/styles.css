@@ -143,6 +143,12 @@ body {
   border-radius: 30px;
 }
 
+/*Selected button*/
+.selected-navigation-link {
+  border-color: #ff4a78;
+  color: #fcfcfc;
+}
+
 /*Header catalog popover*/
 .navigation-button-wrapper {
   position: relative;
