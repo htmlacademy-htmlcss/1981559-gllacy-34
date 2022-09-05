@@ -136,6 +136,7 @@ body {
 /*User container*/
 .user-container {
   display: flex;
+  align-items: flex-start;
   gap: 16px;
   margin-top: 12px;
 }
@@ -178,7 +179,6 @@ body {
 
 .login-button {
   display: flex;
-  align-items: flex-start;
   gap: 6px;
 }
 
@@ -188,7 +188,6 @@ body {
 
 .recycle-bin-button {
   display: flex;
-  align-items: flex-start;
   gap: 8px;
 }
 
@@ -202,8 +201,23 @@ body {
   line-height: 20px;
   color: #2d3440;
   text-decoration: none;
-  margin-top: 6px;
   margin-right: 1px;
+  display: block;
+  align-items: flex-start;
+  padding: 6px 0px;
+  border-radius: 30px;
+}
+
+.contact-number:hover {
+  opacity: 0.6;
+}
+
+.contact-number:active {
+  opacity: 0.3;
+}
+
+.contact-number:focus-visible {
+  outline: 2px solid #000000;
 }
 
 /*Поле поиска*/
