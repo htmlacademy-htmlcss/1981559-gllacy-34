@@ -487,7 +487,20 @@ body {
   list-style-type: none;
 }
 
+.recycle-bin-item {
+  margin-bottom: 20px;
+  display: grid;
+  grid-template-areas:
+"image name price delete"
+"image weight price delete";
+}
+
+.recycle-bin-image {
+  grid-area: image;
+}
+
 .cart-item-name {
+  grid-area: name;
   margin: 0;
   font-family: "Inter", sans-serif;
   font-weight: 700;
@@ -496,6 +509,7 @@ body {
 }
 
 .cart-item-weight {
+  grid-area: weight;
   margin: 0;
   font-size: 14px;
   line-height: 20px;
@@ -503,6 +517,7 @@ body {
 }
 
 .cart-price {
+  grid-area: price;
   margin: 0;
   font-weight: 700;
   font-size: 18px;
@@ -510,6 +525,7 @@ body {
 }
 
 .cart-delete-button {
+  grid-area: delete;
   background-color: transparent;
   border: none;
   cursor: pointer;
