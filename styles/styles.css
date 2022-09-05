@@ -353,8 +353,41 @@ body {
 }
 
   /*Поля ввода логина и пароля*/
+.login-container {
+  position: relative;
+}
+
 .login-popover {
-  display: none;
+  position: absolute;
+  background-color: #fcfcfc;
+  border-radius: 4px;
+  padding: 48px;
+  display: flex;
+  flex-direction: column;
+  width: 420px;
+  box-sizing: border-box;
+  right: 0;
+  top: 40px;
+}
+
+.popover-title {
+  line-height: 30px;
+  margin: 0 0 32px;
+  color: #2d3440;
+}
+
+.login-input {
+  padding: 13px 16px;
+  margin-bottom: 16px;
+  width: 324px;
+  box-sizing: border-box;
+}
+
+.password-input {
+  padding: 13px 16px 13px 13px;
+  width: 324px;
+  box-sizing: border-box;
+  letter-spacing: -1px;
 }
 
 /*Выбранные товары в корзине*/
