@@ -302,20 +302,57 @@ body {
   position: absolute;
   top: 40px;
   right: 0;
+  display: none;
 }
 
 .search-field {
+  width: 325px;
+  box-sizing: border-box;
+  padding: 13px 16px;
+}
+
+.text-field {
   font-family: "Inter", sans-serif;
   font-size: 16px;
   line-height: 20px;
   border: 1px solid #b9b9b9;
   border-radius: 4px;
-  padding: 13px 16px;
-  width: 325px;
-  box-sizing: border-box;
+  color: #2d3440;
 }
 
-/*Поля ввода логина и пароля*/
+.text-field::placeholder {
+  color: #b9b9b9;
+}
+
+.text-field:hover {
+  border-color: #2d3440;
+}
+
+.text-field:focus-visible{
+  outline: 2px solid #2d3440;
+}
+
+/*Стилизация ошибки*/
+.text-field:invalid {
+  outline: 1px solid #ea5454;
+  border-color: transparent;
+}
+
+.text-field:invalid.text-field:hover {
+  outline: 2px solid #ea5454;
+  border-color: transparent;
+}
+
+.text-field:placeholder-shown {
+  outline: none;
+  border: 1px solid #b9b9b9;
+}
+
+.text-field:disabled {
+  background-color: #e7e7e7;
+}
+
+  /*Поля ввода логина и пароля*/
 .login-popover {
   display: none;
 }
