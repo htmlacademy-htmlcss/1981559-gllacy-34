@@ -479,6 +479,7 @@ body {
   width: 441px;
   padding: 48px;
   box-sizing: border-box;
+  display: none;
 }
 
 .recycle-bin-list {
@@ -529,6 +530,12 @@ body {
   background-color: transparent;
   border: none;
   cursor: pointer;
+}
+
+.total-price {
+  margin: 0;
+  font-weight: 700;
+  font-size: 18px;
 }
 
 /*Пустая корзина*/
