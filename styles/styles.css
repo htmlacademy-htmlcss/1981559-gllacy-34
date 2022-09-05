@@ -155,6 +155,7 @@ body {
   position: absolute;
   min-width: 135px;
   top: 44px;
+  display: none;
 }
 
 .navigation-wrapper-list {
