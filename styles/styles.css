@@ -456,6 +456,10 @@ body {
 }
 
 /*Корзина*/
+.recycle-bin-container {
+  position: relative;
+}
+
 .recycle-bin-button {
   display: flex;
   gap: 8px;
@@ -465,8 +469,50 @@ body {
   margin-top: 3px;
 }
 
+/*Корзина с товаром*/
 .recycle-bin-popover {
-  display: none;
+  position: absolute;
+  background-color: #fcfcfc;
+  border-radius: 4px;
+  right: -1px;
+  top: 40px;
+  width: 441px;
+  padding: 48px;
+  box-sizing: border-box;
+}
+
+.recycle-bin-list {
+  margin: 0;
+  padding: 0;
+  list-style-type: none;
+}
+
+.cart-item-name {
+  margin: 0;
+  font-family: "Inter", sans-serif;
+  font-weight: 700;
+  font-size: 18px;
+  color: #2d3440;
+}
+
+.cart-item-weight {
+  margin: 0;
+  font-size: 14px;
+  line-height: 20px;
+  color: #b9b9b9;
+}
+
+.cart-price {
+  margin: 0;
+  font-weight: 700;
+  font-size: 18px;
+  color: #2d3440;
+}
+
+.cart-delete-button {
+  background-color: transparent;
+  border: none;
+  cursor: pointer;
 }
 
 /*Пустая корзина*/
