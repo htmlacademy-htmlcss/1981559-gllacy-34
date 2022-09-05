@@ -368,6 +368,7 @@ body {
   display: grid;
   grid-template-columns: 136px 1fr;
   justify-items: start;
+  align-items: start;
   row-gap: 4px;
 }
 
