@@ -419,6 +419,11 @@ body {
   outline-width: 2px;
 }
 
+.additional-button:disabled {
+  color: #565C66;
+  background-color: #b9b9b9;
+  outline-color: rgba(185, 185, 185, 0.3);
+}
 
 /*Выбранные товары в корзине*/
 .recycle-bin-popover {
