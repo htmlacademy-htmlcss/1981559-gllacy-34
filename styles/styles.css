@@ -233,6 +233,10 @@ body {
   outline: 2px solid #000000;;
 }
 
+.search-container {
+  position: relative;
+}
+
 .search-container-button {
   width: 32px;
   height: 32px;
@@ -288,7 +292,27 @@ body {
 
 /*Поле поиска*/
 .search-form {
-  display: none;
+  font-family: "Inter", sans-serif;
+  font-size: 16px;
+  line-height: 20px;
+  color: #b9b9b9;
+  padding: 24px 16px;
+  background-color: #fcfcfc;
+  border-radius: 4px;
+  position: absolute;
+  top: 40px;
+  right: 0;
+}
+
+.search-field {
+  font-family: "Inter", sans-serif;
+  font-size: 16px;
+  line-height: 20px;
+  border: 1px solid #b9b9b9;
+  border-radius: 4px;
+  padding: 13px 16px;
+  width: 325px;
+  box-sizing: border-box;
 }
 
 /*Поля ввода логина и пароля*/
