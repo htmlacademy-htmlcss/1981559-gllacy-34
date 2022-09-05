@@ -176,6 +176,26 @@ body {
   align-items: center;
 }
 
+.login-button {
+  display: flex;
+  align-items: flex-start;
+  gap: 6px;
+}
+
+.login-button svg{
+  margin-top: 1px;
+}
+
+.recycle-bin-button {
+  display: flex;
+  align-items: flex-start;
+  gap: 8px;
+}
+
+.recycle-bin-button svg{
+  margin-top: 3px;
+}
+
 /*Номер телефона*/
 .contact-number {
   font-weight: 700;
@@ -183,6 +203,7 @@ body {
   color: #2d3440;
   text-decoration: none;
   margin-top: 6px;
+  margin-right: 1px;
 }
 
 /*Поле поиска*/
