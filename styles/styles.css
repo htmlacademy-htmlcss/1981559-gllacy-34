@@ -338,14 +338,9 @@ body {
   border-color: transparent;
 }
 
-.text-field:invalid.text-field:hover {
+.text-field:placeholder-shown:invalid:hover {
   outline: 2px solid #ea5454;
   border-color: transparent;
-}
-
-.text-field:placeholder-shown {
-  outline: none;
-  border: 1px solid #b9b9b9;
 }
 
 .text-field:disabled {
@@ -403,7 +398,27 @@ body {
   outline: 4px solid rgba(255, 47, 100, 0.3);
   border: none;
   padding: 12px 32px;
+  cursor: pointer;
 }
+
+.additional-button:hover {
+  background-color: rgba(252, 252, 252, 0.3);
+  outline-color: #ff2f64;
+  color: #2d3440;
+}
+
+.additional-button:active {
+  background-color: #feafc3;
+  color: #fcfcfc;
+  outline-color: #2d3440;
+  outline-width: 2px;
+}
+
+.additional-button:focus-visible {
+  outline-color: #2d3440;
+  outline-width: 2px;
+}
+
 
 /*Выбранные товары в корзине*/
 .recycle-bin-popover {
