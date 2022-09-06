@@ -330,6 +330,11 @@ body {
   background-color: #e7e7e7;
 }
 
+.text-field:disabled:hover {
+  background-color: #e7e7e7;
+  outline: 6px solid red;
+}
+
   /*Поля ввода логина и пароля*/
 .login-button {
   display: flex;
@@ -378,10 +383,6 @@ body {
   grid-column: 1/2;
 }
 
-.login-link {
-  grid-column: 2/3;
-}
-
 /*Popovers*/
 .popover-title {
   line-height: 30px;
@@ -403,7 +404,22 @@ body {
   color: #2d3440;
   text-decoration: none;
   position: relative;
+  grid-column: 2/3;
 }
+
+.login-link:hover {
+  opacity: 0.6;
+}
+
+.login-link:active {
+  opacity: 0.3;
+}
+
+.login-link:focus-visible {
+  outline: 2px solid #feafc3;
+  border-radius: 10px;
+}
+
 
 .login-link::after {
   content: "";
@@ -479,7 +495,7 @@ body {
   width: 441px;
   padding: 48px;
   box-sizing: border-box;
-  display: none;
+
 }
 
 .recycle-bin-list {
@@ -489,11 +505,13 @@ body {
 }
 
 .recycle-bin-item {
-  margin-bottom: 20px;
+  margin-bottom: 24px;
   display: grid;
   grid-template-areas:
 "image name price delete"
 "image weight price delete";
+  justify-content: start;
+  grid-template-columns: 61px 164px 98px 22px;
 }
 
 .recycle-bin-image {
@@ -519,7 +537,7 @@ body {
 
 .cart-price {
   grid-area: price;
-  margin: 0;
+  margin: 13px 0 0 0;
   font-weight: 700;
   font-size: 18px;
   color: #2d3440;
@@ -527,9 +545,12 @@ body {
 
 .cart-delete-button {
   grid-area: delete;
+  padding: 0;
   background-color: transparent;
   border: none;
   cursor: pointer;
+  margin: 16px 0 0 4px;
+  align-self: start;
 }
 
 .total-price {
