@@ -499,7 +499,7 @@ body {
 }
 
 .recycle-bin-list {
-  margin: 0;
+  margin: 0 0 65px 0;
   padding: 0;
   list-style-type: none;
 }
@@ -512,6 +512,10 @@ body {
 "image weight price delete";
   justify-content: start;
   grid-template-columns: 61px 164px 98px 22px;
+}
+
+.recycle-bin-item:last-child {
+  margin-bottom: 0;
 }
 
 .recycle-bin-image {
@@ -554,10 +558,20 @@ body {
 }
 
 .total-price {
-  margin: 0;
+  margin: 12px 0 0;
   font-weight: 700;
   font-size: 18px;
+  justify-self: end;
 }
+
+.bottom-bin-container {
+  display: grid;
+  grid-template-columns: 205px 1fr;
+  justify-items: start;
+  align-items: start;
+  gap: 10px;
+}
+
 
 /*Пустая корзина*/
 .recycle-bin-empty {
