@@ -495,7 +495,7 @@ body {
   width: 441px;
   padding: 48px;
   box-sizing: border-box;
-
+  display: none;
 }
 
 .recycle-bin-list {
