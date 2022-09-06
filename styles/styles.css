@@ -330,7 +330,7 @@ body {
 
 .text-field:disabled:hover {
   background-color: #e7e7e7;
-  outline: 6px solid red;
+  color: rgba(45, 52, 64, 0.65);
 }
 
   /*Поля ввода логина и пароля*/
