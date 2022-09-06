@@ -155,7 +155,6 @@ body {
   position: absolute;
   min-width: 135px;
   top: 44px;
-  display: none;
 }
 
 .navigation-wrapper-list {
@@ -285,7 +284,6 @@ body {
   position: absolute;
   top: 40px;
   right: 0;
-  display: none;
 }
 
 .search-field {
@@ -360,7 +358,6 @@ body {
   box-sizing: border-box;
   right: 0;
   top: 40px;
-  display: none;
 }
 
 .login-input {
@@ -495,7 +492,6 @@ body {
   width: 441px;
   padding: 48px;
   box-sizing: border-box;
-  display: none;
 }
 
 .recycle-bin-list {
@@ -586,7 +582,30 @@ body {
 
 /*Пустая корзина*/
 .recycle-bin-empty {
+  position: absolute;
+  background-color: #fcfcfc;
+  border-radius: 4px;
+  right: 0;
+  top: 40px;
+  width: 288px;
+  min-height: 156px;
+  box-sizing: border-box;
+  display: flex;
+  align-items: center;
+  padding: 20px;
+}
+
+/*Закрытый popover*/
+.popover-is-closed {
   display: none;
+}
+
+.empty-bin-title {
+  font-weight: 700;
+  font-size: 24px;
+  line-height: 30px;
+  margin: 0;
+  text-align: center;
 }
 
 /*Selected button, should be at the end of the css*/
