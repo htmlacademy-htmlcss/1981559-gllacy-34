@@ -502,6 +502,17 @@ body {
   margin: 0 0 65px 0;
   padding: 0;
   list-style-type: none;
+  position: relative;
+}
+
+.recycle-bin-list::after {
+  position: absolute;
+  content: "";
+  width: 100%;
+  height: 1px;
+  background-color: #e7e7e7;
+  bottom: -32px;
+  left: 0;
 }
 
 .recycle-bin-item {
