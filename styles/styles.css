@@ -704,6 +704,26 @@ body {
   outline-width: 4px;
 }
 
+/*Слайдер*/
+.slider-list {
+  margin: 0;
+  padding: 0;
+  list-style-type: none;
+}
+
+.slider-title {
+  font-weight: 900;
+  font-size: 36px;
+  line-height: 46px;
+  color: #2d3440;
+}
+
+.slider-description {
+  font-size: 18px;
+  line-height: 24px;
+  color: #2d3440;
+}
+
 /*Selected button, should be at the end of the css*/
 .selected-navigation-link {
   background-color: #ff4a78;
