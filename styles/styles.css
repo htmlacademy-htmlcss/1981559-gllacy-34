@@ -608,6 +608,58 @@ body {
   text-align: center;
 }
 
+/*Блок акций*/
+.promo-words {
+  font-weight: 900;
+  font-size: 32px;
+  line-height: 46px;
+}
+
+.promo-title {
+  font-size: 24px;
+  line-height: 30px;
+}
+
+
+/*Стиль обычной кнопки*/
+.general-button {
+  font-family: "Inter", sans-serif;
+  font-weight: 700;
+  font-size: 16px;
+  line-height: 20px;
+  color: #2d3440;
+  background-color: #fcfcfc;
+  border: none;
+  outline: 4px solid rgba(252, 252, 252, 0.4);
+  border-radius: 26px;
+  padding: 12px 32px;
+}
+
+.general-button:hover {
+  background-color: rgba(252, 252, 252, 0.4);
+  outline-color: #fcfcfc;
+}
+
+.general-button:active {
+  background-color: #fcfcfc;
+  outline-color: #2d3440;
+  outline-width: 2px;
+}
+
+.general-button:focus-visible {
+  background-color: rgba(252, 252, 252, 0.5);
+  outline-color: #2d3440;
+  outline-width: 2px;
+}
+
+.general-button:disabled {
+  font-weight: 400;
+  color: #b9b9b9;
+  background-color: #e7e7e7;
+  outline-color: rgba(252, 252, 252, 0.4);
+  outline-width: 4px;
+}
+
 /*Selected button, should be at the end of the css*/
 .selected-navigation-link {
   background-color: #ff4a78;
