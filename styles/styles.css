@@ -620,7 +620,7 @@ body {
 }
 
 .promo-list {
-  margin: 54px 0 0;
+  margin: 53px 0 0;
   padding: 0;
   list-style-type: none;
   display: grid;
@@ -631,24 +631,29 @@ body {
 .promo-item {
   background: #ff7799;
   border-radius: 16px;
-  padding: 13px 0 0 36px;
+  padding-left: 36px;
   display: grid;
-  grid-template-columns: 1fr 1fr;
+  grid-template-columns: 1fr 219px;
   grid-template-areas:
     "title image"
     "description image"
     "button image";
+  justify-items: start;
+  align-items: start;
+  grid-template-rows: 1fr 2fr 1fr;
 }
 
 .promo-title {
   font-size: 24px;
   line-height: 30px;
   color: #2d3440;
+  margin: 37px 0 0;
   grid-area: title;
 }
 
 .promo-description {
   color: #2d3440;
+  margin: 28px 0 0;
   grid-area: description;
 }
 
@@ -658,6 +663,7 @@ body {
 
 .promo-image {
   grid-area: image;
+  align-self: end;
 }
 
 /*Стиль обычной кнопки*/
