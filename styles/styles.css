@@ -634,13 +634,12 @@ body {
   padding-left: 36px;
   display: grid;
   grid-template-columns: 1fr 219px;
-  grid-template-areas:
-    "title image"
-    "description image"
-    "button image";
-  justify-items: start;
-  align-items: start;
-  grid-template-rows: 1fr 2fr 1fr;
+}
+
+.left-promo-column {
+  display: flex;
+  flex-direction: column;
+  align-items: flex-start;
 }
 
 .promo-title {
@@ -648,22 +647,19 @@ body {
   line-height: 30px;
   color: #2d3440;
   margin: 37px 0 0;
-  grid-area: title;
 }
 
 .promo-description {
   color: #2d3440;
   margin: 28px 0 0;
-  grid-area: description;
 }
 
 .promo-button {
-  grid-area: button;
+  margin-top: 28px;
 }
 
 .promo-image {
-  grid-area: image;
-  align-self: end;
+
 }
 
 /*Стиль обычной кнопки*/
