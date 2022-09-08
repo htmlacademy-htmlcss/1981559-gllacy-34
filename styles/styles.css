@@ -815,10 +815,36 @@ body {
   display: flex;
 }
 
+/*Кнопки социальных сетей*/
 .social-list {
   padding: 0;
   list-style-type: none;
   display: flex;
+  gap: 10px;
+}
+
+.social-link {
+  width: 24px;
+  height: 24px;
+  display: block;
+  color: #fcfcfc;
+  outline: 2px solid rgba(252, 252, 252, 0.3);
+  border-radius: 50%;
+  border: none;
+  outline-offset: 0;
+}
+
+.social-link:hover {
+  background-color: #2d3440;
+}
+
+.social-link:active {
+  opacity: 0.5;
+}
+
+.social-link:focus-visible {
+  outline: 2px solid #2d3440;
+  background-color: #2d3440;
 }
 
 /*Selected button, should be at the end of the css*/
