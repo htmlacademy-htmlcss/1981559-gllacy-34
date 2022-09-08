@@ -724,6 +724,58 @@ body {
   color: #2d3440;
 }
 
+/*Pagination*/
+.slider-pagination {
+  padding: 0;
+  list-style-type: none;
+  display: flex;
+  gap: 10px;
+}
+
+.slider-pagination-button {
+  cursor: pointer;
+  padding: 0;
+  width: 12px;
+  height: 12px;
+  box-sizing: border-box;
+  border-radius: 50%;
+  background-color: rgba(252, 252, 252, 0.3);
+  border: none;
+  outline: 1px solid rgba(252, 252, 252, 0.3);
+}
+
+.slider-pagination-button:hover {
+  outline-color: #fcfcfc;
+}
+
+.slider-pagination-button:active {
+  background-color: rgba(252, 252, 252, 0.5);
+  outline: 1px solid rgba(252, 252, 252, 0.5);
+}
+
+.slider-pagination-button:focus-visible {
+  background-color: rgba(252, 252, 252, 0.3);
+  outline-color: #2d3440;
+}
+
+/*Кнопка пагинации выбранного слайдера*/
+.selected-button-slider {
+  background-color: #fcfcfc;
+  outline-color: #fcfcfc;
+}
+
+.slider-images-list {
+  padding: 0;
+  list-style-type: none;
+  display: flex;
+}
+
+.social-list {
+  padding: 0;
+  list-style-type: none;
+  display: flex;
+}
+
 /*Selected button, should be at the end of the css*/
 .selected-navigation-link {
   background-color: #ff4a78;
