@@ -705,6 +705,51 @@ body {
 }
 
 /*Слайдер*/
+.slider-controls {
+  display: flex;
+  justify-content: space-between;
+  width: 280px;
+  height: 38px;
+}
+
+.slider-control-button {
+  background-color: rgba(252, 252, 252, 0.3);
+  border: none;
+  outline: 1px solid #fcfcfc;
+  border-radius: 50%;
+  padding: 0;
+  color: #fcfcfc;
+  cursor: pointer;
+}
+
+.slider-control-button:first-child {
+  transform: rotate(180deg);
+}
+
+.slider-control-button:hover {
+  color: #2d3440;
+  background-color: #fcfcfc;
+}
+
+.slider-control-button:focus-visible {
+  color: #2d3440;
+  background-color: rgba(252, 252, 252, 0.3);
+  outline-color: #2d3440;
+  outline-width: 2px;
+  outline-offset: -1px;
+}
+
+.slider-control-button:disabled {
+  background-color: rgba(252, 252, 252, 0.3);
+  opacity: 0.4;
+}
+
+.slider-control-button:active {
+  color: #2d3440;
+  background-color: rgba(252, 252, 252, 0.3);
+  outline-color: rgba(252, 252, 252, 0.3);
+}
+
 .slider-list {
   margin: 0;
   padding: 0;
