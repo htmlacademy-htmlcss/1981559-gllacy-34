@@ -631,9 +631,10 @@ body {
 .promo-item {
   background: #ff7799;
   border-radius: 16px;
-  padding-left: 36px;
+  padding: 37px 0px 35px 36px;
   display: grid;
-  grid-template-columns: 1fr 219px;
+  grid-template-columns: 1fr 217px;
+  position: relative;
 }
 
 .left-promo-column {
@@ -646,7 +647,7 @@ body {
   font-size: 24px;
   line-height: 30px;
   color: #2d3440;
-  margin: 37px 0 0;
+  margin: 0;
 }
 
 .promo-description {
@@ -659,7 +660,9 @@ body {
 }
 
 .promo-image {
-
+  position: absolute;
+  right: 0;
+  bottom: 0;
 }
 
 /*Стиль обычной кнопки*/
