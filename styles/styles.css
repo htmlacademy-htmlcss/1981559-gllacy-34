@@ -839,10 +839,23 @@ body {
   list-style-type: none;
   display: flex;
   align-items: center;
+  gap: 47px;
 }
 
 .slider-image-item {
+  position: relative;
+}
+
+.slider-image-item::before {
+  position: absolute;
+  content: "";
   background-color: #ffcbd8;
+  top: 100px;
+  left: 0;
+  width: 312px;
+  height: 312px;
+  border-radius: 50%;
+  z-index: -1;
 }
 
 /*Кнопки социальных сетей*/
