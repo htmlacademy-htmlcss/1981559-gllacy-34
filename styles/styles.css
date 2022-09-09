@@ -841,6 +841,10 @@ body {
   align-items: center;
 }
 
+.slider-image-item {
+  background-color: #ffcbd8;
+}
+
 /*Кнопки социальных сетей*/
 .social-list {
   padding: 0;
