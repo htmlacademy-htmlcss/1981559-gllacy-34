@@ -712,22 +712,23 @@ body {
 .slider-controls {
   display: flex;
   justify-content: space-between;
-  width: 280px;
-  height: 38px;
+  width: 346px;
   position: absolute;
   z-index: 1;
-  top: 50%;
-  right: 33%;
+  top: 278px;
+  right: 280px;
 }
 
 .slider-control-button {
   background-color: rgba(252, 252, 252, 0.3);
   border: none;
-  outline: 1px solid #fcfcfc;
+  outline: 2px solid #fcfcfc;
   border-radius: 50%;
   padding: 0;
   color: #fcfcfc;
   cursor: pointer;
+  width: 35px;
+  height: 35px;
 }
 
 .slider-control-button:first-child {
@@ -833,9 +834,11 @@ body {
 }
 
 .slider-images-list {
+  margin: 15px 0 0 61px;
   padding: 0;
   list-style-type: none;
   display: flex;
+  align-items: center;
 }
 
 /*Кнопки социальных сетей*/
