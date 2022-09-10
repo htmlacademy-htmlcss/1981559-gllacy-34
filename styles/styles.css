@@ -941,6 +941,25 @@ body {
   background-color: #2d3440;
 }
 
+/*Список популярного мороженого*/
+.goods-list {
+  display: grid;
+  grid-template-columns: repeat(4, 270px);
+  gap: 30px;
+}
+
+.goods-item {
+  background-color: #fcfcfc;
+  border-radius: 8px;
+  display: flex;
+  align-items: center;
+  flex-direction: column;
+}
+
+.product-description {
+  text-align: center;
+}
+
 /*Selected button, should be at the end of the css*/
 .selected-navigation-link {
   background-color: #ff4a78;
