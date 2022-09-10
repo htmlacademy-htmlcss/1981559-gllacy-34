@@ -839,11 +839,19 @@ body {
   list-style-type: none;
   display: flex;
   align-items: center;
-  gap: 47px;
 }
 
 .slider-image-item {
   position: relative;
+  outline: 4px solid #69a9ff;
+}
+
+.slider-image-item {
+  flex-shrink: 0;
+}
+
+.slider-image-item:nth-child(n+2) {
+  transform: scale(0.3);
 }
 
 .slider-image-item::before {
