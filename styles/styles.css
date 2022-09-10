@@ -776,7 +776,7 @@ body {
 }
 
 .slider-number-1 {
-  display: none;
+  /*display: none;*/
 }
 
 .slider-number-2 {
@@ -784,7 +784,7 @@ body {
 }
 
 .slider-number-3 {
-  /*display: none;*/
+  display: none;
 }
 
 .slider-container {
