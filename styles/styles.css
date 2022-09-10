@@ -764,12 +764,27 @@ body {
   margin: 0;
   padding: 0;
   list-style-type: none;
+  display: flex;
+  gap: 150px;
 }
 
 .slider-item {
   display: grid;
   grid-template-columns: 500px 1fr;
   position: relative;
+  flex-shrink: 0;
+}
+
+.slider-number-1 {
+  display: none;
+}
+
+.slider-number-2 {
+  /*display: none;*/
+}
+
+.slider-number-3 {
+  display: none;
 }
 
 .slider-container {
@@ -901,6 +916,12 @@ body {
   right: 0;
   bottom: 4px;
 }
+
+/*Для PixelPerfect нужно исправить недочет макета*/
+.slider-number-2 .social-list {
+  right: -5px;
+}
+
 
 .social-link {
   width: 24px;
