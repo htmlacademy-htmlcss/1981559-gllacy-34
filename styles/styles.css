@@ -977,7 +977,10 @@ body {
 }
 
 .price {
-  
+  font-weight: 700;
+  font-size: 20px;
+  line-height: 24px;
+  color: #2d3440;
 }
 
 /*Selected button, should be at the end of the css*/
