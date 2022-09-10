@@ -942,6 +942,13 @@ body {
 }
 
 /*Список популярного мороженого*/
+.goods-block-text {
+  font-weight: 900;
+  font-size: 32px;
+  line-height: 46px;
+  color: #2d3440;
+}
+
 .goods-list {
   display: grid;
   grid-template-columns: repeat(4, 270px);
@@ -956,8 +963,21 @@ body {
   flex-direction: column;
 }
 
+.product-title {
+  font-size: 20px;
+  line-height: 24px;
+  color: #2d3440;
+}
+
 .product-description {
   text-align: center;
+  font-weight: 400;
+  font-size: 16px;
+  line-height: 22px;
+}
+
+.price {
+  
 }
 
 /*Selected button, should be at the end of the css*/
