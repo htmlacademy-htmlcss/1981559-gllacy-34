@@ -707,6 +707,7 @@ body {
 /*Слайдер*/
 .slider-group {
   position: relative;
+  margin-bottom: 77px;
 }
 
 .slider-controls {
