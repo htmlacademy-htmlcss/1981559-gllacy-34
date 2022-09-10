@@ -780,11 +780,11 @@ body {
 }
 
 .slider-number-2 {
-  /*display: none;*/
+  display: none;
 }
 
 .slider-number-3 {
-  display: none;
+  /*display: none;*/
 }
 
 .slider-container {
@@ -919,6 +919,10 @@ body {
 
 /*Для PixelPerfect нужно исправить недочет макета*/
 .slider-number-2 .social-list {
+  right: -5px;
+}
+
+.slider-number-3 .social-list {
   right: -5px;
 }
 
