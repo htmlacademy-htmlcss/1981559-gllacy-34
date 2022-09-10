@@ -833,6 +833,7 @@ body {
   outline-color: #fcfcfc;
 }
 
+/*Стилизация фоток мороженого*/
 .slider-images-list {
   margin: 39px 0 0 61px;
   padding: 0;
@@ -852,16 +853,19 @@ body {
 .slider-image-item:nth-child(n+2) {
   width: 90px;
   margin-top: 5px;
-}
-
-.slider-image-item:nth-child(2){
   margin-right: 50px;
 }
 
-.slider-image-item:nth-child(3){
-
+.slider-image-item:nth-child(n+3) {
+  margin-right: 0;
 }
 
+/*Защита от переполнения*/
+.slider-image-item:nth-child(n+4) {
+  display: none;
+}
+
+/*Задний фон мороженого*/
 .slider-image-item:first-child::before {
   position: absolute;
   content: "";
