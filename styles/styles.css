@@ -843,7 +843,6 @@ body {
 
 .slider-image-item {
   position: relative;
-  outline: 4px solid #69a9ff;
 }
 
 .slider-image-item:first-child{
@@ -854,6 +853,7 @@ body {
   width: 90px;
   margin-top: 5px;
   margin-right: 50px;
+  opacity: 0.4;
 }
 
 .slider-image-item:nth-child(n+3) {
@@ -874,6 +874,18 @@ body {
   left: 0;
   width: 312px;
   height: 312px;
+  border-radius: 50%;
+  z-index: -1;
+}
+
+.slider-image-item:nth-child(n+2)::before {
+  position: absolute;
+  content: "";
+  background-color: #ffcbd8;
+  top: 204px;
+  left: -5px;
+  width: 99px;
+  height: 99px;
   border-radius: 50%;
   z-index: -1;
 }
