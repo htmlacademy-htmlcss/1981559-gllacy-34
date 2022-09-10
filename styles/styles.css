@@ -971,6 +971,8 @@ body {
   display: flex;
   align-items: center;
   flex-direction: column;
+  padding: 0 39px 27px;
+  margin-bottom: 100px;
 }
 
 .product-image {
@@ -981,6 +983,7 @@ body {
   font-size: 20px;
   line-height: 24px;
   color: #2d3440;
+  margin: -2px 0 9px
 }
 
 .product-description {
@@ -988,6 +991,12 @@ body {
   font-weight: 400;
   font-size: 16px;
   line-height: 22px;
+  margin: 0 0 7px;
+}
+
+.price-container {
+  margin-left: 1px;
+  align-self: stretch;
 }
 
 .price {
@@ -995,6 +1004,19 @@ body {
   font-size: 20px;
   line-height: 24px;
   color: #2d3440;
+}
+
+.product-button {
+  margin: 0;
+  padding: 0;
+  cursor: pointer;
+  border: none;
+  border-radius: 50%;
+  background-color: #ff2f64;
+  outline: 2px solid #ff2f64;
+  width: 30px;
+  height: 30px;
+  color: #fcfcfc;
 }
 
 /*Selected button, should be at the end of the css*/
