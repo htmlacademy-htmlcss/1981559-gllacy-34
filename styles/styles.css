@@ -334,6 +334,11 @@ body {
   border-color: transparent;
 }
 
+.text-field:placeholder-shown {
+  outline: 1px solid #b9b9b9;
+  border-color: transparent;
+}
+
 .text-field:disabled {
   background-color: #e7e7e7;
 }
