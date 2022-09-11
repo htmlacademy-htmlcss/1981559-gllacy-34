@@ -444,6 +444,7 @@ body {
   border: none;
   padding: 12px 32px;
   cursor: pointer;
+  text-decoration: none;
 }
 
 .additional-button:hover {
@@ -518,14 +519,23 @@ body {
   margin-bottom: 24px;
   display: grid;
   grid-template-areas:
-"image name price delete"
-"image weight price delete";
+"link link price delete"
+"link link price delete";
   justify-content: start;
   grid-template-columns: 61px 164px 98px 22px;
 }
 
 .recycle-bin-item:last-child {
   margin-bottom: 0;
+}
+
+.recycle-bin-link {
+  grid-area: link;
+  text-decoration: none;
+  display: grid;
+  grid-template-areas:
+  "image name"
+  "image weight";
 }
 
 .recycle-bin-image {
