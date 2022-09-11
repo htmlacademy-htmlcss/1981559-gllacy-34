@@ -519,10 +519,10 @@ body {
   margin-bottom: 24px;
   display: grid;
   grid-template-areas:
-"link link price delete"
-"link link price delete";
+"link price delete"
+"link price delete";
   justify-content: start;
-  grid-template-columns: 61px 164px 98px 22px;
+  grid-template-columns: 225px 98px 22px;
 }
 
 .recycle-bin-item:last-child {
@@ -536,6 +536,21 @@ body {
   grid-template-areas:
   "image name"
   "image weight";
+  justify-content: start;
+  grid-template-columns: 61px 164px 98px;
+}
+
+.recycle-bin-link:hover {
+  opacity: 0.6;
+}
+
+.recycle-bin-link:active {
+  opacity: 0.3;
+}
+
+.recycle-bin-link:focus-visible {
+  outline: 2px solid #ff4a78;
+  border-radius: 10px;
 }
 
 .recycle-bin-image {
@@ -575,6 +590,19 @@ body {
   cursor: pointer;
   margin: 16px 0 0 4px;
   align-self: start;
+}
+
+.cart-delete-button:hover {
+  opacity: 0.6;
+}
+
+.cart-delete-button:active {
+  opacity: 0.3;
+}
+
+.cart-delete-button:focus-visible {
+  outline: 2px solid #ff4a78;
+  border-radius: 10px;
 }
 
 .total-price {
