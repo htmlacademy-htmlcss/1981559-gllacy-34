@@ -1011,9 +1011,3 @@ body {
   outline: 2px solid #2d3440;
   background-color: #2d3440;
 }
-
-/*Selected button, should be at the end of the css*/
-.selected-navigation-link {
-  background-color: #ff4a78;
-  color: #fcfcfc;
-}
