@@ -144,6 +144,11 @@ body {
   outline: 2px solid #000000;
 }
 
+.selected-navigation-link {
+  background-color: #ff4a78;
+  color: #fcfcfc;
+}
+
 /*Header catalog popover*/
 .navigation-button-wrapper {
   position: relative;
@@ -743,10 +748,4 @@ body {
   background-color: #e7e7e7;
   outline-color: rgba(252, 252, 252, 0.4);
   outline-width: 4px;
-}
-
-/*Selected button, should be at the end of the css*/
-.selected-navigation-link {
-  background-color: #ff4a78;
-  color: #fcfcfc;
 }
