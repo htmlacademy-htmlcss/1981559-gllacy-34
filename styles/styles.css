@@ -108,6 +108,8 @@ body {
 /*Навигация*/
 .navigation {
   display: flex;
+  max-width: 700px;
+  flex-wrap: wrap;
 }
 
 .navigation-list {
@@ -115,6 +117,8 @@ body {
   margin: 10px 0 0 0;
   padding: 0;
   display: flex;
+  max-width: 550px;
+  flex-wrap: wrap;
 }
 
 .navigation-link {
