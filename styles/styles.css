@@ -1048,6 +1048,7 @@ body {
   display: flex;
   flex-direction: column;
   align-items: center;
+  margin-bottom: 10px;
 }
 
 .product-image {
@@ -1067,7 +1068,7 @@ body {
   font-size: 16px;
   line-height: 22px;
   color: #565c66;
-  margin: 0 0 7px;
+  margin: 0;
 }
 
 .price-container {
@@ -1086,11 +1087,14 @@ body {
   margin: 0;
   padding: 0;
   cursor: pointer;
-  border: none;
   border-radius: 50%;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  border: 2px solid #ff2f64;
   background-color: #ff2f64;
-  outline: 2px solid #ff2f64;
-  width: 30px;
-  height: 30px;
+  width: 32px;
+  height: 32px;
   color: #fcfcfc;
 }
+
