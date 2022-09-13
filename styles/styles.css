@@ -1051,6 +1051,19 @@ body {
   border-radius: 8px;
 }
 
+.goods-link:hover {
+  opacity: 0.6;
+}
+
+.goods-link:active {
+  opacity: 0.3;
+}
+
+.goods-link:focus-visible {
+  outline: 3px solid #2d3440;
+  outline-offset: -1px;
+}
+
 .product-image {
   position: absolute;
   top: -50px;
