@@ -1039,4 +1039,35 @@ body {
   list-style-type: none;
   margin: 0;
   padding: 0;
+  display: grid;
+  grid-template-columns: repeat(2, 505px);
+  column-gap: 32px;
+  row-gap: 40px;
+}
+
+.peculiarities-text {
+  margin: 0;
+  padding-left: 64px;
+}
+
+/*Иконки для каждого элемента списка*/
+
+.ice-cream-icon {
+  background-image: url("/images/main/peculiarities/ice-cream-icon.svg");
+  background-repeat: no-repeat;
+}
+
+.cow-icon {
+  background-image: url("/images/main/peculiarities/cow-icon.svg");
+  background-repeat: no-repeat;
+}
+
+.leaf-icon {
+  background-image: url("/images/main/peculiarities/leaf-icon.svg");
+  background-repeat: no-repeat;
+}
+
+.thermometer-icon {
+  background-image: url("/images/main/peculiarities/thermometer-icon.svg");
+  background-repeat: no-repeat;
 }
