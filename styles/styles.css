@@ -1014,7 +1014,7 @@ body {
 
 /*Блок подписки*/
 .subscription-list {
-  margin: 0;
+  margin: 0 0 100px;
   padding: 0;
   list-style-type: none;
   display: grid;
@@ -1033,11 +1033,13 @@ body {
   background-image: url("/images/main/subscription/ice-cream-background.jpg");
   background-position: top -105px right -74px;
   background-size: 651px auto;
+  background-repeat: no-repeat;
 }
 
 .lines-background {
   background-image: url("/images/main/subscription/lines-background.jpg");
   background-size: cover;
+  background-position: top left;
 }
 
 .news-text {
@@ -1057,4 +1059,9 @@ body {
 .subscription-form {
   background-color: #ffffff;
   border-radius: 16px;
+  padding: 26px;
+}
+
+.subscription-input-email {
+  padding: 14px 16px;
 }
