@@ -1087,9 +1087,6 @@ body {
   padding: 0;
   cursor: pointer;
   border-radius: 50%;
-  display: flex;
-  justify-content: center;
-  align-items: center;
   border: 2px solid #ff2f64;
   background-color: #ff2f64;
   width: 32px;
@@ -1100,3 +1097,27 @@ body {
   right: 40px;
 }
 
+.product-button svg{
+  position: absolute;
+  transform: translate(-50%, -50%);
+}
+
+.product-button:hover {
+  color: #000000;
+  background-color: #fcfcfc;
+}
+
+.product-button:active {
+  color: #000000;
+  background-color: #ffcbd8;
+}
+
+.product-button:focus-visible {
+  border-color: #2d3440;
+}
+
+.product-button:disabled {
+  background-color: #b9b9b9;
+  border-color: #b9b9b9;
+  color: #565c66;
+}
