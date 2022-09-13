@@ -1013,7 +1013,34 @@ body {
 }
 
 /*Блок подписки*/
+.subscription-list {
+  margin: 0;
+  padding: 0;
+  list-style-type: none;
+  display: grid;
+  grid-template-columns: 570px 558px;
+  gap: 36px;
+}
+
+.subscription-item {
+  background-color: #ffffff;
+  border-radius: 16px;
+  padding: 6px;
+}
+
+.ice-cream-item {
+  padding: 34px 32px 69px;
+  background-image: url("/images/main/subscription/ice-cream-background.jpg");
+  background-size: cover;
+}
+
+.lines-background {
+  background-image: url("/images/main/subscription/lines-background.jpg");
+  background-size: cover;
+}
+
 .news-text {
+  margin: 0 0 12px;
   line-height: 20px;
 }
 
@@ -1022,4 +1049,11 @@ body {
   font-size: 24px;
   line-height: 30px;
   color: #2d3440;
+  margin: 0;
+  max-width: 300px;
+}
+
+.subscription-form {
+  background-color: #ffffff;
+  border-radius: 16px;
 }
