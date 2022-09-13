@@ -1031,7 +1031,8 @@ body {
 .ice-cream-item {
   padding: 34px 32px 69px;
   background-image: url("/images/main/subscription/ice-cream-background.jpg");
-  background-size: cover;
+  background-position: top -105px right -74px;
+  background-size: 651px auto;
 }
 
 .lines-background {
