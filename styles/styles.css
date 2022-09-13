@@ -1018,6 +1018,13 @@ body {
   background-image: url("/images/main/peculiarities/wafer.jpg");
   background-size: cover;
   border-radius: 16px;
+  padding: 24px;
+}
+
+.peculiarities-container {
+  background-color: #ffffff;
+  border-radius: 16px;
+  padding: 56px 40px;
 }
 
 .peculiarities-title {
@@ -1025,4 +1032,11 @@ body {
   font-size: 32px;
   line-height: 46px;
   color: #2d3440;
+  text-align: center;
+}
+
+.peculiarities-list {
+  list-style-type: none;
+  margin: 0;
+  padding: 0;
 }
