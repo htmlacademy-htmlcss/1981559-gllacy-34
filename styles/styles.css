@@ -1039,6 +1039,38 @@ body {
 .feedback-container {
   grid-column: 2 / 3;
   grid-row: 1/-1;
+  display: grid;
+  grid-template-areas:
+  "text text"
+  "date label-number"
+  "date input-number"
+  "address address"
+  "button button";
   background-color: #fcfcfc;
   border-radius: 8px;
+}
+
+.feedback-form-text {
+  margin: 0;
+  grid-area: text;
+}
+
+.date-container {
+  grid-area: date;
+}
+
+.label-feedback-number {
+  grid-area: label-number;
+}
+
+.input-feedback-number {
+  grid-area: input-number;
+}
+
+.address-container {
+  grid-area: address;
+}
+
+.feedback-button {
+  grid-area: button;
 }
