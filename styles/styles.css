@@ -1013,3 +1013,20 @@ body {
 }
 
 /*Обратная связь*/
+.feedback {
+  padding: 64px 64px 64px 100px;
+  background-image: url("/images/main/feedback/feedback-background.jpg");
+  border-radius: 16px;
+}
+
+.feedback-large-text {
+  font-weight: 900;
+  font-size: 32px;
+  line-height: 46px;
+  color: #2d3440;
+  margin: 0 0 24px;
+}
+
+.feedback-small-text {
+  margin: 0;
+}
