@@ -1066,6 +1066,7 @@ body {
   cursor: pointer;
   width: 12px;
   height: 12px;
+  background-color: transparent;
 }
 
 .tooltip-text {
@@ -1075,8 +1076,8 @@ body {
   width: 200px;
   box-sizing: border-box;
   position: absolute;
-  top: 21px;
-  right: 65px;
+  top: 10px;
+  right: 58px;
   transform: translate(50%, 15px);
   display: none;
   z-index: 1;
@@ -1085,6 +1086,19 @@ body {
 .tooltip-toggle:hover + .tooltip-text,
 .tooltip-toggle:focus + .tooltip-text {
   display: block;
+}
+
+.tooltip-text::after {
+  content: "";
+  position: absolute;
+  top: -5px;
+  right: 33px;
+  width: 0;
+  height: 0;
+  border-left: 7px solid transparent;
+  border-right: 7px solid transparent;
+  border-bottom: 6px solid #000000;
+  transform: translate(-50%);
 }
 
 .date-tooltip {
@@ -1138,7 +1152,7 @@ body {
 }
 
 .input-feedback-address {
-  padding: 14px 16px 14px 16px;
+  padding: 14px 16px 10px 16px;
 }
 
 .label-address-container {
