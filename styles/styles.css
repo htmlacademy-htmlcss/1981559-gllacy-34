@@ -1040,7 +1040,7 @@ body {
 
 /*Контейнер формы отправки*/
 .feedback-container {
-  padding: 40px 39px;
+  padding: 40px 42px 40px 39px;
   grid-column: 2 / 3;
   align-items: start;
   display: grid;
@@ -1050,9 +1050,10 @@ body {
   "date input-number"
   "address address"
   "button button";
+  grid-template-columns: 115px 1fr;
   background-color: #fcfcfc;
   border-radius: 8px;
-  column-gap: 16px;
+  column-gap: 18px;
 }
 
 /*Tooltip*/
@@ -1119,11 +1120,13 @@ body {
 
 .label-feedback-number {
   grid-area: label-number;
+  margin-top: 1px;
   margin-bottom: 8px;
 }
 
 .input-feedback-number {
   grid-area: input-number;
+  padding: 13px 15px 12px 15px;
   margin-bottom: 20px;
 }
 
