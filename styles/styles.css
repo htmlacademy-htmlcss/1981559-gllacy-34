@@ -1017,6 +1017,8 @@ body {
   padding: 64px 64px 64px 100px;
   background-image: url("/images/main/feedback/feedback-background.jpg");
   border-radius: 16px;
+  display: grid;
+  grid-template-columns: 1fr 1fr;
 }
 
 .feedback-large-text {
@@ -1025,8 +1027,18 @@ body {
   line-height: 46px;
   color: #2d3440;
   margin: 0 0 24px;
+  grid-column: 1 / 2;
 }
 
 .feedback-small-text {
   margin: 0;
+  grid-column: 1 / 2;
+}
+
+/*Контейнер формы отправки*/
+.feedback-container {
+  grid-column: 2 / 3;
+  grid-row: 1/-1;
+  background-color: #fcfcfc;
+  border-radius: 8px;
 }
