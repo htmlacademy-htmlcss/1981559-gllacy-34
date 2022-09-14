@@ -1137,6 +1137,10 @@ body {
   margin-bottom: 32px;
 }
 
+.input-feedback-address {
+  padding: 14px 16px 14px 16px;
+}
+
 .label-address-container {
   margin-bottom: 8px;
 }
