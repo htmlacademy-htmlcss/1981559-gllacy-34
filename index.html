@@ -423,6 +423,33 @@
             привезёт вам ваш заказ в&nbsp;течение часа!
           </p>
 
+            <form class="feedback-container" action="https://echo.htmlacademy.ru/" method="post">
+
+<!--              Дата-->
+              <div class="date-container">
+                <div class="label-date-container">
+                  <label class="label-feedback-date" for="feedback-date">Дата</label>
+                  <span class="date-tooltip"></span>
+                </div>
+                <input class="input-feedback-date" type="date" id="feedback-date" name="feedback-date" placeholder="01.04.2020">
+              </div>
+
+<!--              Телефон-->
+              <label class="label-feedback-number" for="feedback-number">Телефон</label>
+              <input class="input-feedback-number" type="number" id="feedback-number" name="feedback-number" placeholder="+7 800 999-00-00">
+
+<!--              Адрес-->
+              <div class="address-container">
+                <div class="label-address-container">
+                  <label class="label-feedback-address" for="feedback-address">Адрес</label>
+                  <span class="address-tooltip"></span>
+                </div>
+                <input class="input-feedback-address" type="text" id="feedback-address" name="feedback-address" placeholder="ул. Большая Конюшенная, 19/8">
+              </div>
+
+              <button class="feedback-button" type="submit">Отправить</button>
+            </form>
+
         </section>
 
       </main>
