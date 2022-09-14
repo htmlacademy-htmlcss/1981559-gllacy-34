@@ -1037,6 +1037,7 @@ body {
 
 /*Контейнер формы отправки*/
 .feedback-container {
+  padding: 40px;
   grid-column: 2 / 3;
   grid-row: 1/-1;
   display: grid;
@@ -1085,8 +1086,19 @@ body {
   position: relative;
 }
 
+/*feedback styles*/
+.feedback-container input {
+  padding: 14px 16px;
+}
+
+.feedback-container label {
+  font-weight: 700;
+  line-height: 20px;
+  color: #2d3440;
+}
+
 .feedback-form-text {
-  margin: 0;
+  margin: 0 0 32px;
   grid-area: text;
 }
 
