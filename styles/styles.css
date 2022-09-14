@@ -1049,6 +1049,7 @@ body {
   "button button";
   background-color: #fcfcfc;
   border-radius: 8px;
+  column-gap: 16px;
 }
 
 /*Tooltip*/
@@ -1116,6 +1117,8 @@ body {
 
 .address-container {
   grid-area: address;
+  display: flex;
+  flex-direction: column;
 }
 
 .feedback-button {
