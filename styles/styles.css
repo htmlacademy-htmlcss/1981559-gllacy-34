@@ -1045,6 +1045,7 @@ body {
 .news-text {
   margin: 0 0 12px;
   line-height: 20px;
+  max-width: 300px;
 }
 
 .subscription-text {
