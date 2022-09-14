@@ -1040,7 +1040,7 @@ body {
 
 /*Контейнер формы отправки*/
 .feedback-container {
-  padding: 40px;
+  padding: 40px 39px;
   grid-column: 2 / 3;
   align-items: start;
   display: grid;
@@ -1053,7 +1053,6 @@ body {
   background-color: #fcfcfc;
   border-radius: 8px;
   column-gap: 16px;
-  align-items: start;
 }
 
 /*Tooltip*/
@@ -1092,10 +1091,6 @@ body {
 }
 
 /*feedback styles*/
-.feedback-container input {
-  padding: 14px 16px;
-}
-
 .feedback-container label {
   font-weight: 700;
   line-height: 20px;
@@ -1103,7 +1098,7 @@ body {
 }
 
 .feedback-form-text {
-  margin: 0 0 32px;
+  margin: 0 0 31px;
   grid-area: text;
 }
 
@@ -1114,6 +1109,12 @@ body {
 
 .label-date-container {
   margin-bottom: 8px;
+}
+
+.input-feedback-date {
+  width: 115px;
+  box-sizing: border-box;
+  padding: 12px 14px;
 }
 
 .label-feedback-number {
