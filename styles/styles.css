@@ -1018,7 +1018,12 @@ body {
   background-image: url("/images/main/feedback/feedback-background.jpg");
   border-radius: 16px;
   display: grid;
-  grid-template-columns: 1fr 1fr;
+  grid-template-columns: 372px 500px;
+  column-gap: 135px;
+}
+
+.feedback-left-container {
+  grid-column: 1 / 2;
 }
 
 .feedback-large-text {
@@ -1026,20 +1031,18 @@ body {
   font-size: 32px;
   line-height: 46px;
   color: #2d3440;
-  margin: 0 0 24px;
-  grid-column: 1 / 2;
+  margin: 103px 0 24px;
 }
 
 .feedback-small-text {
   margin: 0;
-  grid-column: 1 / 2;
 }
 
 /*Контейнер формы отправки*/
 .feedback-container {
   padding: 40px;
   grid-column: 2 / 3;
-  grid-row: 1/-1;
+  align-items: start;
   display: grid;
   grid-template-areas:
   "text text"
