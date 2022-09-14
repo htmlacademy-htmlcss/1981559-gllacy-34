@@ -1014,9 +1014,9 @@ body {
 }
 
 /*Обратная связь*/
-.feedback {
+.delivery {
   padding: 64px 64px 68px 100px;
-  background-image: url("/images/main/feedback/feedback-background.jpg");
+  background-image: url("/images/main/delivery/delivery-background.jpg");
   background-repeat: no-repeat;
   background-size: 1215px auto;
   background-position: 2px -138px;
@@ -1028,11 +1028,11 @@ body {
   column-gap: 135px;
 }
 
-.feedback-left-container {
+.delivery-left-container {
   grid-column: 1 / 2;
 }
 
-.feedback-large-text {
+.delivery-large-text {
   font-weight: 900;
   font-size: 32px;
   line-height: 46px;
@@ -1040,12 +1040,12 @@ body {
   margin: 103px 0 24px;
 }
 
-.feedback-small-text {
+.delivery-small-text {
   margin: 0;
 }
 
 /*Контейнер формы отправки*/
-.feedback-container {
+.delivery-container {
   padding: 40px 42px 40px 39px;
   grid-column: 2 / 3;
   align-items: start;
@@ -1064,7 +1064,7 @@ body {
 
 /*Tooltip*/
 .tooltip-toggle {
-  background-image: url("/images/main/feedback/tooltip-icon.svg");
+  background-image: url("/images/main/delivery/tooltip-icon.svg");
   background-repeat: no-repeat;
   background-position: center;
   border-radius: 50%;
@@ -1112,14 +1112,14 @@ body {
   margin-left: 1px;
 }
 
-/*feedback styles*/
-.feedback-container label {
+/*delivery styles*/
+.delivery-container label {
   font-weight: 700;
   line-height: 20px;
   color: #2d3440;
 }
 
-.feedback-form-text {
+.delivery-form-text {
   margin: 0 0 31px;
   grid-area: text;
 }
@@ -1133,7 +1133,7 @@ body {
   margin-bottom: 8px;
 }
 
-.input-feedback-date {
+.input-delivery-date {
   width: 115px;
   box-sizing: border-box;
   padding: 12px 14px;
@@ -1145,12 +1145,12 @@ body {
   flex-direction: column;
 }
 
-.label-feedback-number {
+.label-delivery-number {
   margin-top: 1px;
   margin-bottom: 8px;
 }
 
-.input-feedback-number {
+.input-delivery-number {
   padding: 13px 15px 12px 15px;
   margin-bottom: 20px;
 }
@@ -1162,7 +1162,7 @@ body {
   margin-bottom: 32px;
 }
 
-.input-feedback-address {
+.input-delivery-address {
   padding: 14px 16px 10px 16px;
 }
 
@@ -1170,7 +1170,7 @@ body {
   margin-bottom: 8px;
 }
 
-.feedback-button {
+.delivery-button {
   grid-area: button;
   justify-self: center;
 }
