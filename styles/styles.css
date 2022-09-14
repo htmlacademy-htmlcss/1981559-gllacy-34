@@ -1050,6 +1050,41 @@ body {
   border-radius: 8px;
 }
 
+/*Tooltip*/
+.tooltip-toggle {
+  background-image: url("/images/main/feedback/tooltip-icon.svg");
+  background-repeat: no-repeat;
+  background-position: center;
+  border-radius: 50%;
+  border: none;
+  cursor: pointer;
+  width: 12px;
+  height: 12px;
+}
+
+.tooltip-text {
+  background-color: #000000;
+  color: #ffffff;
+  padding: 19px;
+  width: 200px;
+  box-sizing: border-box;
+  position: absolute;
+  top: 21px;
+  right: 65px;
+  transform: translate(50%, 15px);
+  display: none;
+  z-index: 1;
+}
+
+.tooltip-toggle:hover + .tooltip-text,
+.tooltip-toggle:focus + .tooltip-text {
+  display: block;
+}
+
+.date-tooltip {
+  position: relative;
+}
+
 .feedback-form-text {
   margin: 0;
   grid-area: text;
