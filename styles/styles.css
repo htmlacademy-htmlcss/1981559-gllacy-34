@@ -1050,6 +1050,7 @@ body {
   background-color: #fcfcfc;
   border-radius: 8px;
   column-gap: 16px;
+  align-items: start;
 }
 
 /*Tooltip*/
@@ -1105,22 +1106,35 @@ body {
 
 .date-container {
   grid-area: date;
+  margin-bottom: 20px;
+}
+
+.label-date-container {
+  margin-bottom: 8px;
 }
 
 .label-feedback-number {
   grid-area: label-number;
+  margin-bottom: 8px;
 }
 
 .input-feedback-number {
   grid-area: input-number;
+  margin-bottom: 20px;
 }
 
 .address-container {
   grid-area: address;
   display: flex;
   flex-direction: column;
+  margin-bottom: 32px;
+}
+
+.label-address-container {
+  margin-bottom: 8px;
 }
 
 .feedback-button {
   grid-area: button;
+  justify-self: center;
 }
