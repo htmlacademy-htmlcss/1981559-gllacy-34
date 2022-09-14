@@ -1058,6 +1058,20 @@ body {
   text-decoration: none;
 }
 
+.subscription-text:hover {
+  opacity: 0.6;
+}
+
+.subscription-text:active {
+  opacity: 0.3;
+}
+
+.subscription-text:focus-visible {
+  outline: 5px solid #ff4a78;
+  outline-offset: 6px;
+  border-radius: 16px;
+}
+
 .subscription-form {
   background-color: #ffffff;
   border-radius: 16px;
