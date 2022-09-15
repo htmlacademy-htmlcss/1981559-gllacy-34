@@ -1017,7 +1017,11 @@ body {
   background-color: #fcfcfc;
   border-radius: 16px;
   background-image: url("/images/main/feedback/feedback-background.jpg");
+  background-position: top 20px right 20px;
+  background-size: 1170px auto;
+  background-repeat: no-repeat;
   padding: 64px;
+  margin: 0 0 200px;
 }
 
 .feedback-container {
@@ -1069,4 +1073,8 @@ body {
   line-height: 20px;
   color: #565c66;
   margin: 0;
+}
+
+.feedback-button {
+  margin-top: 9px;
 }
