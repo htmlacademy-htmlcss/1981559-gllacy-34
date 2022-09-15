@@ -1028,3 +1028,28 @@ body {
   padding: 40px;
   box-sizing: border-box;
 }
+
+.feedback-title {
+  font-weight: 400;
+  font-size: 16px;
+}
+
+.feedback-address {
+  font-style: normal;
+  font-weight: 700;
+  font-size: 20px;
+  line-height: 24px;
+  color: #2d3440;
+}
+
+.feedback-number {
+  color: #2d3440;
+  text-decoration: none;
+}
+
+.feedback-note {
+  font-weight: 400;
+  font-size: 14px;
+  line-height: 20px;
+  color: #565c66;
+}
