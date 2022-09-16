@@ -1011,3 +1011,28 @@ body {
   outline: 2px solid #2d3440;
   background-color: #2d3440;
 }
+
+/*Каталог*/
+/*Хлебные крошки*/
+.breadcrumbs {
+  margin: 0;
+  padding: 0;
+  list-style-type: none;
+  display: flex;
+}
+
+.breadcrumbs-link {
+  font-weight: 700;
+  font-size: 14px;
+  line-height: 20px;
+  color: #2d3440;
+  text-decoration: none;
+}
+
+.inner-header-title {
+  font-weight: 900;
+  font-size: 32px;
+  line-height: 46px;
+  color: #2d3440;
+  margin: 0;
+}
