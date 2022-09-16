@@ -1016,12 +1016,29 @@ body {
 }
 
 /*Подвал*/
+.main-footer {
+  display: flex;
+  justify-content: space-between;
+  flex-wrap: wrap;
+}
+
+/*Первая колонка*/
+.footer-social-list {
+  margin-right: 300px;
+}
+
+/*Вторая колонка*/
 .footer-link-list {
-  margin: 0;
+  margin: 0 200px 0 0;
   padding: 0;
   list-style-type: none;
 }
 
+.special-footer-link {
+  font-weight: 700;
+}
+
+/*Третья колонка*/
 .footer-list-link {
   font-size: 14px;
   line-height: 20px;
