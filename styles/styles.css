@@ -973,6 +973,9 @@ body {
   list-style-type: none;
   display: flex;
   gap: 16px;
+}
+
+.slider-social-list {
   position: absolute;
   right: -5px;
   bottom: 4px;
