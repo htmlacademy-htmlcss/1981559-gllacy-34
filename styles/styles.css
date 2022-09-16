@@ -1015,7 +1015,7 @@ body {
 /*Каталог*/
 /*Хлебные крошки*/
 .breadcrumbs {
-  margin: 0;
+  margin: 0 0 16px;
   padding: 0;
   list-style-type: none;
   display: flex;
@@ -1027,7 +1027,7 @@ body {
 }
 
 .breadcrumbs-item:not(:last-child) {
-  margin-right: 38px;
+  margin-right: 29px;
 }
 
 .breadcrumbs-item::after {
@@ -1036,7 +1036,7 @@ body {
   height: 12px;
   content: "";
   position: absolute;
-  right: -22px;
+  right: -26px;
   top: 12px;
   transform: translate(-50%, -50%);
 }
@@ -1060,7 +1060,7 @@ body {
   height: 1px;
   width: 100%;
   background-color: #2d3440;
-  bottom: 0;
+  bottom: -1px;
   left: 0;
 }
 
