@@ -1024,17 +1024,21 @@ body {
 
 /*Первая колонка*/
 .footer-social-list {
-  margin-right: 300px;
+  margin-right: 106px;
+  margin-left: 4px;
 }
 
 /*Вторая колонка*/
 .footer-link-list {
   display: grid;
   grid-template-columns: repeat(2, auto);
+  align-content: start;
   max-width: 356px;
-  margin: 0 20px 0 0;
+  margin: 14px 20px 0 0;
   padding: 0;
   list-style-type: none;
+  column-gap: 2px;
+  row-gap: 6px;
 }
 
 .footer-list-link {
@@ -1042,13 +1046,14 @@ body {
   line-height: 20px;
   color: #2d3440;
   text-decoration: none;
-  padding-left: 17px;
+  padding-left: 22px;
 }
 
 .special-footer-link {
   font-weight: 700;
   background-image: url("/images/footer/heart-icon.svg");
   background-repeat: no-repeat;
+  background-position: left bottom 1px;
 }
 
 /*Третья колонка*/
