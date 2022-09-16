@@ -1014,3 +1014,28 @@ body {
   outline: 2px solid #2d3440;
   background-color: #2d3440;
 }
+
+/*Подвал*/
+.footer-link-list {
+  margin: 0;
+  padding: 0;
+  list-style-type: none;
+}
+
+.footer-list-link {
+  font-size: 14px;
+  line-height: 20px;
+  color: #2d3440;
+  text-decoration: none;
+}
+
+/*Ссылка на htmlacademy*/
+.htmlacademy-text {
+  font-size: 12px;
+  line-height: 16px;
+  color: #2d3440;
+}
+
+.htmlacademy-link {
+  color: #2d3440;
+}
