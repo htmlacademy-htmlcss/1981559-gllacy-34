@@ -1020,11 +1020,12 @@ body {
   display: flex;
   justify-content: space-between;
   flex-wrap: wrap;
+  margin-bottom: 100px;
 }
 
 /*Первая колонка*/
 .footer-social-list {
-  margin-right: 106px;
+  margin-right: 120px;
   margin-left: 4px;
 }
 
@@ -1057,14 +1058,20 @@ body {
 }
 
 /*Третья колонка*/
+.footer-htmlacademy-link-container {
+  margin-top: 15px;
+  width: 207px;
+}
 
 /*Ссылка на htmlacademy*/
 .htmlacademy-text {
   font-size: 12px;
   line-height: 16px;
   color: #2d3440;
+  margin: 9px 0 0;
 }
 
 .htmlacademy-link {
   color: #2d3440;
+  text-decoration: none;
 }
