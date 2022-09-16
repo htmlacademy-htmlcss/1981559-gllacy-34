@@ -1029,22 +1029,29 @@ body {
 
 /*Вторая колонка*/
 .footer-link-list {
-  margin: 0 200px 0 0;
+  display: grid;
+  grid-template-columns: repeat(2, auto);
+  max-width: 356px;
+  margin: 0 20px 0 0;
   padding: 0;
   list-style-type: none;
 }
 
-.special-footer-link {
-  font-weight: 700;
-}
-
-/*Третья колонка*/
 .footer-list-link {
   font-size: 14px;
   line-height: 20px;
   color: #2d3440;
   text-decoration: none;
+  padding-left: 17px;
 }
+
+.special-footer-link {
+  font-weight: 700;
+  background-image: url("/images/footer/heart-icon.svg");
+  background-repeat: no-repeat;
+}
+
+/*Третья колонка*/
 
 /*Ссылка на htmlacademy*/
 .htmlacademy-text {
