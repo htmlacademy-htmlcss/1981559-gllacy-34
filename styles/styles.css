@@ -1044,6 +1044,10 @@ body {
   row-gap: 6px;
 }
 
+.footer-link-item {
+  margin-top: 2px;
+}
+
 .footer-list-link {
   font-size: 14px;
   line-height: 20px;
@@ -1086,7 +1090,7 @@ body {
   font-weight: 700;
   background-image: url("/images/footer/heart-icon.svg");
   background-repeat: no-repeat;
-  background-position: left bottom 1px;
+  background-position: left top 2px;
 }
 
 /*Третья колонка*/
