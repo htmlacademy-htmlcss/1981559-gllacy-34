@@ -1092,8 +1092,19 @@ body {
   width: 207px;
 }
 
+/*Ссылка на htmlacademy*/
+.htmlacademy-text {
+  font-size: 12px;
+  line-height: 16px;
+  color: #2d3440;
+  margin: 9px 0 0;
+}
+
+
 .htmlacademy-link {
   position: relative;
+  color: #2d3440;
+  text-decoration: none;
 }
 
 .htmlacademy-text .htmlacademy-link:after {
@@ -1107,15 +1118,20 @@ body {
   opacity: 0.5;
 }
 
-/*Ссылка на htmlacademy*/
-.htmlacademy-text {
-  font-size: 12px;
-  line-height: 16px;
-  color: #2d3440;
-  margin: 9px 0 0;
+.htmlacademy-link:hover {
+  opacity: 0.6;
 }
 
-.htmlacademy-link {
-  color: #2d3440;
-  text-decoration: none;
+.htmlacademy-link:active {
+  opacity: 0.3;
+}
+
+.htmlacademy-link:focus-visible {
+  outline: 2px solid #fcfcfc;
+  border-radius: 16px;
+  outline-offset: 3px;
+}
+
+.htmlacademy-link:focus-visible.htmlacademy-link:after {
+  background-color: transparent;
 }
