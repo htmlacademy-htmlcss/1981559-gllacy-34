@@ -1027,6 +1027,8 @@ body {
 .footer-social-list {
   margin-right: 120px;
   margin-left: 4px;
+  max-width: 110px;
+  flex-wrap: wrap;
 }
 
 /*Вторая колонка*/
