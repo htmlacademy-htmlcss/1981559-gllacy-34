@@ -1020,6 +1020,7 @@ body {
   display: grid;
   grid-template-columns: 570px 570px;
   gap: 30px;
+  align-items: start;
 }
 
 .subscription-item {
