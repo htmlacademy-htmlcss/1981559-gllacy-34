@@ -1048,6 +1048,35 @@ body {
   color: #2d3440;
   text-decoration: none;
   padding-left: 22px;
+  position: relative;
+}
+
+.footer-list-link:hover {
+  opacity: 0.6;
+}
+
+.footer-list-link:active {
+  opacity: 0.3;
+}
+
+.footer-list-link:focus-visible {
+  outline: none;
+}
+
+.footer-list-link:focus-visible.footer-list-link::before {
+  content: "";
+  width: calc(100% - 22px);
+  height: 100%;
+  position: absolute;
+  outline: 3px solid #fcfcfc;
+  outline-offset: 4px;
+  border-radius: 16px;
+  top: 0;
+}
+
+.special-footer-link:focus-visible.footer-list-link::before {
+  width: 100%;
+  left: 0;
 }
 
 .special-footer-link {
