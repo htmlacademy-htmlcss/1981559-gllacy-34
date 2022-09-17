@@ -1124,3 +1124,96 @@ body {
   outline: 2px solid #fcfcfc;
   outline-offset: -2px;
 }
+
+/*Range*/
+.range-cost {
+  width: 196px;
+  border: none;
+  padding: 0;
+}
+
+.cost-description {
+  margin: 0;
+}
+
+.range-scale {
+  height: 2px;
+  background-color: rgba(86,92,102, 0.3);
+  position: relative;
+  margin-top: 28px;
+}
+
+.range-scale::before {
+  position: absolute;
+  content: "";
+  background-color: rgba(252,252,252, 0.3);
+  border-radius: 20px;
+  width: calc(100% + 35px);
+  height: 36px;
+  bottom: -14px;
+  left: -23px;
+}
+
+.range-bar {
+  height: 2px;
+  background-color: #565c66;
+  position: absolute;
+}
+
+.range-toggle {
+  width: 16px;
+  height: 16px;
+  background-color: #2d3440;
+  border-radius: 50%;
+  cursor: pointer;
+  position: absolute;
+  border: none;
+  padding: 0;
+}
+
+.range-toggle::before {
+  content: "";
+  position: absolute;
+  width: 6px;
+  height: 6px;
+  background-color: #fcfcfc;
+  border-radius: 50%;
+  transform: translate(-50%, -50%);
+  top: 50%;
+  left: 50%;
+}
+
+.range-toggle:hover {
+  background-color: #fcfcfc;
+}
+
+.range-toggle:hover.range-toggle::before {
+  background-color: #2d3440;
+}
+
+.range-toggle:active {
+  background-color: #2d3440;
+}
+
+.range-toggle:active.range-toggle::before {
+  background-color: #2d3440;
+}
+
+.range-toggle:focus-visible {
+  background-color: #fcfcfc;
+  outline: 2px solid #2d3440;
+}
+
+.range-toggle:focus-visible.range-toggle::before {
+  background-color: #2d3440;
+}
+
+.toggle-min {
+  top: -8px;
+  left: -8px;
+}
+
+.toggle-max {
+  top: -8px;
+  right: -10px;
+}

@@ -171,12 +171,33 @@
 
             <form class="catalog-filter-form" action="https://echo.htmlacademy.ru/" method="get">
 
+<!--              Селектор-->
               <p class="filter-description">Сортировка:</p>
               <select class="select-control form-items-style" aria-label="Сортировка">
                 <option value="popular">по популярности</option>
                 <option value="cheap">сначала дешевые</option>
                 <option value="expensive">сначала дорогие</option>
               </select>
+
+
+<!--              Range-->
+              <fieldset class="range-cost">
+                <legend class="filter-description cost-description">Цена: 100&nbsp;₽&nbsp;&ndash; 500&nbsp;₽</legend>
+
+                <div class="range-scale">
+                  <div class="range-bar" style="left: 0; width: 119px">
+                    <button class="range-toggle toggle-min" type="button">
+                      <span class="visually-hidden">Изменить минимальную цену.</span>
+                    </button>
+                    <button class="range-toggle toggle-max" type="button">
+                      <span class="visually-hidden">Изменить максимальную цену.</span>
+                    </button>
+                  </div>
+                </div>
+
+              </fieldset>
+
+
 
             </form>
 
