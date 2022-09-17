@@ -1125,11 +1125,16 @@ body {
   outline-offset: -2px;
 }
 
+/*All fieldset style*/
+.filter-fieldset {
+  border: none;
+  margin: 0;
+  padding: 0;
+}
+
 /*Range*/
 .range-cost {
   width: 196px;
-  border: none;
-  padding: 0;
 }
 
 .cost-description {
@@ -1219,3 +1224,10 @@ body {
 }
 
 /*Жирность*/
+.bold-control-list {
+  list-style-type: none;
+  margin: 0;
+  padding: 0;
+  display: flex;
+  gap: 30px;
+}
