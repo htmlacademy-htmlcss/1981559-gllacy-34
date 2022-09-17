@@ -1054,6 +1054,20 @@ body {
   position: relative;
 }
 
+.breadcrumbs-link:hover {
+  opacity: 0.6;
+}
+
+.breadcrumbs-link:active {
+  opacity: 0.3;
+}
+
+.breadcrumbs-link:focus-visible {
+  outline: 3px solid #fcfcfc;
+  border-radius: 16px;
+  outline-offset: 6px;
+}
+
 .breadcrumbs-item:last-child .breadcrumbs-link::after {
   position: absolute;
   content: "";
