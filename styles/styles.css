@@ -1087,7 +1087,7 @@ body {
   top: -22px;
   right: -91px;
   transform: translate(50%, 15px);
-  /*display: none;*/
+  display: none;
   z-index: 1;
 }
 
@@ -1109,7 +1109,7 @@ body {
 .tooltip-text::after {
   border: 7px solid transparent;
   border-right: 7px solid #fcfcfc;
-  left: -6px;
+  left: -7px;
   top: 8px;
 }
 
