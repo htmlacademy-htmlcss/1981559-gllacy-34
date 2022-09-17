@@ -1076,16 +1076,18 @@ body {
 }
 
 .tooltip-text {
-  background-color: #000000;
-  color: #ffffff;
-  padding: 19px;
-  width: 200px;
+  background-color: #fcfcfc;
+  color: #565c66;
+  border-radius: 1px;
+  border: 1px solid #B9B9B9;
   box-sizing: border-box;
+  padding: 10px 8px;
+  width: 162px;
   position: absolute;
-  top: 10px;
-  right: 58px;
+  top: -22px;
+  right: -91px;
   transform: translate(50%, 15px);
-  display: none;
+  /*display: none;*/
   z-index: 1;
 }
 
@@ -1094,17 +1096,21 @@ body {
   display: block;
 }
 
-.tooltip-text::after {
+.tooltip-text::after, .tooltip-text::before {
   content: "";
   position: absolute;
-  top: -5px;
-  right: 33px;
-  width: 0;
-  height: 0;
-  border-left: 7px solid transparent;
-  border-right: 7px solid transparent;
-  border-bottom: 6px solid #000000;
+  top: 8px;
+  left: -8px;
+  border: 7px solid transparent;
+  border-right: 7px solid #b9b9b9;
   transform: translate(-50%);
+}
+
+.tooltip-text::after {
+  border: 7px solid transparent;
+  border-right: 7px solid #fcfcfc;
+  left: -6px;
+  top: 8px;
 }
 
 .date-tooltip {
