@@ -1115,3 +1115,12 @@ body {
   box-sizing: border-box;
   min-width: 196px;
 }
+
+.select-control:hover {
+  background-color: rgba(252,252,252, 0.6);
+}
+
+.select-control:focus-visible {
+  outline: 2px solid #fcfcfc;
+  outline-offset: -2px;
+}
