@@ -1027,7 +1027,7 @@ body {
   display: grid;
   grid-template-columns: repeat(4, 270px);
   gap: 30px;
-  margin: 0;
+  margin: 0 0 20px;
   padding: 0;
   list-style-type: none;
   align-items: start;
@@ -1040,7 +1040,7 @@ body {
   display: flex;
   align-items: center;
   flex-direction: column;
-  margin-bottom: 100px;
+  margin-bottom: 60px;
 }
 
 .goods-link {
