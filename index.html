@@ -510,8 +510,62 @@
               </li>
             </ul>
           </div>
-
         </section>
+        
+        <!--        Доставка-->
+        <section class="delivery">
+          <h2 class="visually-hidden">Доставка</h2>
+          <div class="delivery-left-container">
+            <p class="delivery-large-text">
+              Доставка любимого
+              мороженого на&nbsp;дом
+            </p>
+            <p class="delivery-small-text">
+              Хочется полакомиться любимым десертом,
+              но&nbsp;нет времени съездить в&nbsp;магазин? Закажите
+              доставку мороженого на&nbsp;дом, и&nbsp;курьер
+              привезёт вам ваш заказ в&nbsp;течение часа!
+            </p>
+          </div>
+
+<!--          Контейнер формы отправки-->
+            <form class="delivery-container" action="https://echo.htmlacademy.ru/" method="post">
+              <p class="delivery-form-text">
+                Укажите адрес и&nbsp;дату доставки, и&nbsp;мы&nbsp;свяжемся
+                с&nbsp;вами, чтобы подтвердить заказ.
+              </p>
+<!--              Дата-->
+              <div class="date-container">
+                <div class="label-date-container">
+                  <label class="label-delivery-date" for="delivery-date">Дата</label>
+                  <span class="date-tooltip">
+                    <button class="tooltip-toggle" type="button" aria-labelledby="tooltip-label"></button>
+                    <span class="tooltip-text" role="tooltip" id="date-tooltip">Введите дату в формате ДД.ММ.ГГГГ</span>
+                  </span>
+                </div>
+                <input class="input-delivery-date text-field" type="text" id="delivery-date" name="delivery-date" placeholder="01.04.2020">
+              </div>
+
+<!--              Телефон-->
+              <div class="number-container">
+                <label class="label-delivery-number" for="delivery-number">Телефон</label>
+                <input class="input-delivery-number text-field" type="tel" id="delivery-number" name="delivery-number" placeholder="+7 800 999-00-00">
+              </div>
+
+<!--              Адрес-->
+              <div class="address-container">
+                <div class="label-address-container">
+                  <label class="label-delivery-address" for="delivery-address">Адрес</label>
+                  <span class="date-tooltip">
+                    <button class="tooltip-toggle" type="button" aria-labelledby="tooltip-label"></button>
+                    <span class="tooltip-text" role="tooltip" id="address-tooltip">Введите название улицы, дома и квартиры</span>
+                  </span>
+                </div>
+                <input class="input-delivery-address text-field" type="text" id="delivery-address" name="delivery-address" placeholder="ул. Большая Конюшенная, 19/8">
+              </div>
+
+              <button class="delivery-button additional-button" type="submit">Отправить</button>
+            </form>
 
       </main>
 

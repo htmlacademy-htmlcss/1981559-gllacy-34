@@ -334,10 +334,11 @@ body {
   border-color: transparent;
 }
 
-.text-field:placeholder-shown {
-  outline: 1px solid #b9b9b9;
-  border-color: transparent;
-}
+/*закомментировал до момента, когда смерджу в мастер*/
+/*.text-field:placeholder-shown {*/
+/*  outline: 1px solid #b9b9b9;*/
+/*  border-color: transparent;*/
+/*}*/
 
 .text-field:disabled {
   background-color: #e7e7e7;
@@ -662,6 +663,125 @@ body {
   line-height: 30px;
   margin: 0;
   text-align: center;
+}
+
+/*Tooltip*/
+.tooltip-toggle {
+  background-image: url("/images/main/delivery/tooltip-icon.svg");
+  background-repeat: no-repeat;
+  background-position: center;
+  border-radius: 50%;
+  border: none;
+  cursor: pointer;
+  width: 12px;
+  height: 12px;
+  background-color: transparent;
+}
+
+.tooltip-text {
+  background-color: #fcfcfc;
+  color: #565c66;
+  border-radius: 1px;
+  border: 1px solid #B9B9B9;
+  box-sizing: border-box;
+  padding: 10px 8px;
+  width: 162px;
+  position: absolute;
+  top: -22px;
+  right: -91px;
+  transform: translate(50%, 15px);
+  display: none;
+  z-index: 1;
+}
+
+.tooltip-toggle:hover + .tooltip-text,
+.tooltip-toggle:focus + .tooltip-text {
+  display: block;
+}
+
+.tooltip-text::after, .tooltip-text::before {
+  content: "";
+  position: absolute;
+  top: 8px;
+  left: -8px;
+  border: 7px solid transparent;
+  border-right: 7px solid #b9b9b9;
+  transform: translate(-50%);
+}
+
+.tooltip-text::after {
+  border: 7px solid transparent;
+  border-right: 7px solid #fcfcfc;
+  left: -7px;
+  top: 8px;
+}
+
+.date-tooltip {
+  position: relative;
+  margin-left: 1px;
+}
+
+/*delivery styles*/
+.delivery-container label {
+  font-weight: 700;
+  line-height: 20px;
+  color: #2d3440;
+}
+
+.delivery-form-text {
+  margin: 0 0 31px;
+  grid-area: text;
+}
+
+.date-container {
+  grid-area: date;
+  margin-bottom: 20px;
+}
+
+.label-date-container {
+  margin-bottom: 8px;
+}
+
+.input-delivery-date {
+  width: 115px;
+  box-sizing: border-box;
+  padding: 12px 14px;
+}
+
+.number-container {
+  grid-area: number;
+  display: flex;
+  flex-direction: column;
+}
+
+.label-delivery-number {
+  margin-top: 1px;
+  margin-bottom: 8px;
+}
+
+.input-delivery-number {
+  padding: 13px 15px 12px 15px;
+  margin-bottom: 20px;
+}
+
+.address-container {
+  grid-area: address;
+  display: flex;
+  flex-direction: column;
+  margin-bottom: 32px;
+}
+
+.input-delivery-address {
+  padding: 14px 16px 10px 16px;
+}
+
+.label-address-container {
+  margin-bottom: 8px;
+}
+
+.delivery-button {
+  grid-area: button;
+  justify-self: center;
 }
 
 /*Блок акций*/
@@ -1023,6 +1143,7 @@ body {
   max-width: 527px;
 }
 
+
 .goods-list {
   display: grid;
   grid-template-columns: repeat(4, 270px);
@@ -1194,4 +1315,52 @@ body {
 .thermometer-icon {
   background-image: url("/images/main/peculiarities/thermometer-icon.svg");
   background-repeat: no-repeat;
+
+/*Доставка*/
+.delivery {
+  padding: 64px 64px 68px 100px;
+  background-image: url("/images/main/delivery/delivery-background.jpg");
+  background-repeat: no-repeat;
+  background-size: 1215px auto;
+  background-position: 2px -138px;
+  background-color: #f3f3f4;
+  border-radius: 16px;
+  display: grid;
+  align-items: start;
+  grid-template-columns: 372px 500px;
+  column-gap: 135px;
+}
+
+.delivery-left-container {
+  grid-column: 1 / 2;
+}
+
+.delivery-large-text {
+  font-weight: 900;
+  font-size: 32px;
+  line-height: 46px;
+  color: #2d3440;
+  margin: 103px 0 24px;
+}
+
+.delivery-small-text {
+  margin: 0;
+}
+
+/*Контейнер формы отправки*/
+.delivery-container {
+  padding: 40px 42px 40px 39px;
+  grid-column: 2 / 3;
+  align-items: start;
+  display: grid;
+  align-content: start;
+  grid-template-areas:
+  "text text"
+  "date number"
+  "address address"
+  "button button";
+  grid-template-columns: 115px 1fr;
+  background-color: #fcfcfc;
+  border-radius: 8px;
+  column-gap: 18px;
 }
