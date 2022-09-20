@@ -1042,8 +1042,7 @@ body {
   padding: 0;
   display: grid;
   grid-template-columns: repeat(2, 505px);
-  column-gap: 32px;
-  row-gap: 40px;
+  gap: 40px 32px;
 }
 
 .peculiarities-text {
