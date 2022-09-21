@@ -334,11 +334,10 @@ body {
   border-color: transparent;
 }
 
-/*закомментировал до момента, когда смерджу в мастер*/
-/*.text-field:placeholder-shown {*/
-/*  outline: 1px solid #b9b9b9;*/
-/*  border-color: transparent;*/
-/*}*/
+.text-field:placeholder-shown {
+  outline: 1px solid #b9b9b9;
+  border-color: transparent;
+}
 
 .text-field:disabled {
   background-color: #e7e7e7;
