@@ -1258,7 +1258,7 @@ body {
 
 /*Блок особенностей*/
 .peculiarities {
-  margin-bottom: 100px;
+  margin-bottom: 80px;
   background-image: url("/images/main/peculiarities/wafer.jpg");
   background-size: cover;
   border-radius: 16px;
@@ -1318,7 +1318,7 @@ body {
 
 /*Блок подписки*/
 .subscription {
-  margin: 0 0 100px;
+  margin: 0 0 78px;
   display: grid;
   grid-template-columns: 570px 570px;
   gap: 30px;
@@ -1425,7 +1425,7 @@ body {
   font-size: 32px;
   line-height: 46px;
   color: #2d3440;
-  margin: 103px 0 24px;
+  margin: 105px 0 24px;
 }
 
 .delivery-small-text {
