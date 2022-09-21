@@ -334,10 +334,11 @@ body {
   border-color: transparent;
 }
 
-.text-field:placeholder-shown {
-  outline: 1px solid #b9b9b9;
-  border-color: transparent;
-}
+/*закомментировал до момента, когда смерджу в мастер*/
+/*.text-field:placeholder-shown {*/
+/*  outline: 1px solid #b9b9b9;*/
+/*  border-color: transparent;*/
+/*}*/
 
 .text-field:disabled {
   background-color: #e7e7e7;
@@ -662,6 +663,125 @@ body {
   line-height: 30px;
   margin: 0;
   text-align: center;
+}
+
+/*Tooltip*/
+.tooltip-toggle {
+  background-image: url("/images/main/delivery/tooltip-icon.svg");
+  background-repeat: no-repeat;
+  background-position: center;
+  border-radius: 50%;
+  border: none;
+  cursor: pointer;
+  width: 12px;
+  height: 12px;
+  background-color: transparent;
+}
+
+.tooltip-text {
+  background-color: #fcfcfc;
+  color: #565c66;
+  border-radius: 1px;
+  border: 1px solid #B9B9B9;
+  box-sizing: border-box;
+  padding: 10px 8px;
+  width: 162px;
+  position: absolute;
+  top: -22px;
+  right: -91px;
+  transform: translate(50%, 15px);
+  display: none;
+  z-index: 1;
+}
+
+.tooltip-toggle:hover + .tooltip-text,
+.tooltip-toggle:focus + .tooltip-text {
+  display: block;
+}
+
+.tooltip-text::after, .tooltip-text::before {
+  content: "";
+  position: absolute;
+  top: 8px;
+  left: -8px;
+  border: 7px solid transparent;
+  border-right: 7px solid #b9b9b9;
+  transform: translate(-50%);
+}
+
+.tooltip-text::after {
+  border: 7px solid transparent;
+  border-right: 7px solid #fcfcfc;
+  left: -7px;
+  top: 8px;
+}
+
+.date-tooltip {
+  position: relative;
+  margin-left: 1px;
+}
+
+/*delivery styles*/
+.delivery-container label {
+  font-weight: 700;
+  line-height: 20px;
+  color: #2d3440;
+}
+
+.delivery-form-text {
+  margin: 0 0 31px;
+  grid-area: text;
+}
+
+.date-container {
+  grid-area: date;
+  margin-bottom: 20px;
+}
+
+.label-date-container {
+  margin-bottom: 8px;
+}
+
+.input-delivery-date {
+  width: 115px;
+  box-sizing: border-box;
+  padding: 12px 14px;
+}
+
+.number-container {
+  grid-area: number;
+  display: flex;
+  flex-direction: column;
+}
+
+.label-delivery-number {
+  margin-top: 1px;
+  margin-bottom: 8px;
+}
+
+.input-delivery-number {
+  padding: 13px 15px 12px 15px;
+  margin-bottom: 20px;
+}
+
+.address-container {
+  grid-area: address;
+  display: flex;
+  flex-direction: column;
+  margin-bottom: 32px;
+}
+
+.input-delivery-address {
+  padding: 14px 16px 10px 16px;
+}
+
+.label-address-container {
+  margin-bottom: 8px;
+}
+
+.delivery-button {
+  grid-area: button;
+  justify-self: center;
 }
 
 /*Блок акций*/
@@ -1012,6 +1132,190 @@ body {
   background-color: #2d3440;
 }
 
+/*Список популярного мороженого*/
+.goods-block-text {
+  font-weight: 900;
+  font-size: 32px;
+  line-height: 46px;
+  color: #2d3440;
+  margin: 0 auto 107px;
+  text-align: center;
+  max-width: 527px;
+}
+
+.goods-list {
+  display: grid;
+  grid-template-columns: repeat(4, 270px);
+  gap: 30px;
+  margin: 0 0 19px;
+  padding: 0;
+  list-style-type: none;
+  align-items: start;
+}
+
+.goods-item {
+  position: relative;
+  background-color: #fcfcfc;
+  border-radius: 8px;
+  display: flex;
+  align-items: center;
+  flex-direction: column;
+  margin-bottom: 60px;
+}
+
+.goods-link {
+  text-decoration: none;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  padding: 135px 39px 29px;
+  border-radius: 8px;
+}
+
+.goods-link:hover {
+  opacity: 0.6;
+}
+
+.goods-link:active {
+  opacity: 0.3;
+}
+
+.goods-link:focus-visible {
+  outline: 3px solid #2d3440;
+  outline-offset: -1px;
+}
+
+.product-image {
+  position: absolute;
+  top: -50px;
+}
+
+.product-title {
+  font-size: 20px;
+  line-height: 24px;
+  color: #2d3440;
+  margin: -2px 0 9px
+}
+
+.product-description {
+  text-align: center;
+  font-weight: 400;
+  font-size: 16px;
+  line-height: 22px;
+  color: #565c66;
+  margin: 0 0 19px;
+}
+
+.price {
+  font-weight: 700;
+  font-size: 20px;
+  line-height: 24px;
+  color: #2d3440;
+  align-self: flex-start;
+  margin-left: 1px;
+  max-width: 152px;
+}
+
+.product-button {
+  margin: 0;
+  padding: 0;
+  cursor: pointer;
+  border-radius: 50%;
+  border: 2px solid #ff2f64;
+  background-color: #ff2f64;
+  width: 32px;
+  height: 32px;
+  color: #fcfcfc;
+  position: absolute;
+  bottom: 25px;
+  right: 40px;
+}
+
+.product-button svg{
+  position: absolute;
+  transform: translate(-50%, -50%);
+}
+
+.product-button:hover {
+  color: #000000;
+  background-color: #fcfcfc;
+}
+
+.product-button:active {
+  color: #000000;
+  background-color: #ffcbd8;
+}
+
+.product-button:focus-visible {
+  border-color: #2d3440;
+}
+
+.product-button:disabled {
+  background-color: #b9b9b9;
+  border-color: #b9b9b9;
+  color: #565c66;
+}
+
+/*Блок особенностей*/
+.peculiarities {
+  margin-bottom: 100px;
+  background-image: url("/images/main/peculiarities/wafer.jpg");
+  background-size: cover;
+  border-radius: 16px;
+  padding: 24px;
+}
+
+.peculiarities-container {
+  background-color: #ffffff;
+  border-radius: 16px;
+  padding: 57px 40px 56px;
+}
+
+.peculiarities-title {
+  font-weight: 900;
+  font-size: 32px;
+  line-height: 46px;
+  color: #2d3440;
+  text-align: center;
+  margin: 0 0 55px;
+}
+
+.peculiarities-list {
+  list-style-type: none;
+  margin: 0;
+  padding: 0;
+  display: grid;
+  grid-template-columns: repeat(2, 505px);
+  gap: 40px 32px;
+}
+
+.peculiarities-text {
+  margin: 0;
+  padding-left: 64px;
+}
+
+/*Иконки для каждого элемента списка*/
+
+.ice-cream-icon {
+  background-image: url("/images/main/peculiarities/ice-cream-icon.svg");
+  background-repeat: no-repeat;
+}
+
+.cow-icon {
+  background-image: url("/images/main/peculiarities/cow-icon.svg");
+  background-repeat: no-repeat;
+}
+
+.leaf-icon {
+  background-image: url("/images/main/peculiarities/leaf-icon.svg");
+  background-repeat: no-repeat;
+}
+
+.thermometer-icon {
+  background-image: url("/images/main/peculiarities/thermometer-icon.svg");
+  background-repeat: no-repeat;
+}
+
 /*Блок подписки*/
 .subscription {
   margin: 0 0 100px;
@@ -1095,4 +1399,53 @@ body {
 
 .subscription-button {
   grid-column: 2 / 3;
+  }
+
+/*Доставка*/
+.delivery {
+  padding: 64px 64px 68px 100px;
+  background-image: url("/images/main/delivery/delivery-background.jpg");
+  background-repeat: no-repeat;
+  background-size: 1215px auto;
+  background-position: 2px -138px;
+  background-color: #f3f3f4;
+  border-radius: 16px;
+  display: grid;
+  align-items: start;
+  grid-template-columns: 372px 500px;
+  column-gap: 135px;
+}
+
+.delivery-left-container {
+  grid-column: 1 / 2;
+}
+
+.delivery-large-text {
+  font-weight: 900;
+  font-size: 32px;
+  line-height: 46px;
+  color: #2d3440;
+  margin: 103px 0 24px;
+}
+
+.delivery-small-text {
+  margin: 0;
+}
+
+/*Контейнер формы отправки*/
+.delivery-container {
+  padding: 40px 42px 40px 39px;
+  grid-column: 2 / 3;
+  align-items: start;
+  display: grid;
+  align-content: start;
+  grid-template-areas:
+  "text text"
+  "date number"
+  "address address"
+  "button button";
+  grid-template-columns: 115px 1fr;
+  background-color: #fcfcfc;
+  border-radius: 8px;
+  column-gap: 18px;
 }
