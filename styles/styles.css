@@ -1516,3 +1516,131 @@ body {
 .feedback-button {
   margin-top: 8px;
 }
+
+/*Подвал*/
+.main-footer {
+  display: flex;
+  justify-content: space-between;
+  flex-wrap: wrap;
+  margin-bottom: 100px;
+}
+
+/*Первая колонка*/
+.footer-social-list {
+  margin-right: 120px;
+  margin-left: 4px;
+  max-width: 110px;
+  flex-wrap: wrap;
+}
+
+/*Вторая колонка*/
+.footer-link-list {
+  display: grid;
+  grid-template-columns: repeat(2, auto);
+  align-content: start;
+  max-width: 410px;
+  margin: 14px 20px 0 0;
+  padding: 0;
+  list-style-type: none;
+  column-gap: 2px;
+  row-gap: 6px;
+}
+
+.footer-link-item {
+  margin-top: 2px;
+}
+
+.footer-list-link {
+  font-size: 14px;
+  line-height: 20px;
+  color: #2d3440;
+  text-decoration: none;
+  padding-left: 22px;
+  position: relative;
+  display: block;
+}
+
+.footer-list-link:hover {
+  opacity: 0.6;
+}
+
+.footer-list-link:active {
+  opacity: 0.3;
+}
+
+.footer-list-link:focus-visible {
+  outline: none;
+}
+
+.footer-list-link:focus-visible.footer-list-link::before {
+  content: "";
+  width: calc(100% - 22px);
+  height: 100%;
+  position: absolute;
+  outline: 3px solid #fcfcfc;
+  outline-offset: 4px;
+  border-radius: 16px;
+  top: 0;
+}
+
+.special-footer-link:focus-visible.footer-list-link::before {
+  width: 100%;
+  left: 0;
+}
+
+.special-footer-link {
+  font-weight: 700;
+  background-image: url("/images/footer/heart-icon.svg");
+  background-repeat: no-repeat;
+  background-position: left top 2px;
+}
+
+/*Третья колонка*/
+.footer-htmlacademy-link-container {
+  margin-top: 15px;
+  width: 207px;
+}
+
+/*Ссылка на htmlacademy*/
+.htmlacademy-text {
+  font-size: 12px;
+  line-height: 16px;
+  color: #2d3440;
+  margin: 9px 0 10px;
+}
+
+
+.htmlacademy-link {
+  position: relative;
+  color: #2d3440;
+  text-decoration: none;
+}
+
+.htmlacademy-text .htmlacademy-link:after {
+  position: absolute;
+  content: "";
+  height: 1px;
+  width: 100%;
+  bottom: -1px;
+  left: 0;
+  background-color: #2d3440;
+  opacity: 0.5;
+}
+
+.htmlacademy-link:hover {
+  opacity: 0.6;
+}
+
+.htmlacademy-link:active {
+  opacity: 0.3;
+}
+
+.htmlacademy-link:focus-visible {
+  outline: 2px solid #fcfcfc;
+  border-radius: 16px;
+  outline-offset: 3px;
+}
+
+.htmlacademy-link:focus-visible.htmlacademy-link:after {
+  background-color: transparent;
+}
