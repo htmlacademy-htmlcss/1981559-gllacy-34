@@ -1448,3 +1448,70 @@ body {
   border-radius: 8px;
   column-gap: 18px;
 }
+
+/*Обратная связь*/
+.feedback {
+  background-color: #dbb2b6;
+  border-radius: 16px;
+  background-image: url("/images/main/feedback/feedback-background.jpg");
+  background-position: top -82px right;
+  background-size: 1170px auto;
+  background-repeat: no-repeat;
+  padding: 64px;
+  margin: 0 0 200px;
+}
+
+.feedback-container {
+  background-color: #fcfcfc;
+  box-shadow: 0 8px 16px rgba(45, 52, 64, 0.12);
+  border-radius: 8px;
+  width: 343px;
+  padding: 41px 40px 42px;
+  box-sizing: border-box;
+}
+
+.feedback-title {
+  font-weight: 400;
+  font-size: 16px;
+  margin: 0 0 12px;
+}
+
+.feedback-address {
+  font-style: normal;
+  font-weight: 700;
+  font-size: 20px;
+  line-height: 24px;
+  color: #2d3440;
+  margin-bottom: 24px;
+}
+
+.feedback-number {
+  color: #2d3440;
+  text-decoration: none;
+}
+
+.feedback-number:hover {
+  opacity: 0.6;
+}
+
+.feedback-number:active {
+  opacity: 0.3;
+}
+
+.feedback-number:focus-visible {
+  outline: 3px solid #ff4a78;
+  border-radius: 16px;
+  outline-offset: 2px;
+}
+
+.feedback-note {
+  font-weight: 400;
+  font-size: 14px;
+  line-height: 20px;
+  color: #565c66;
+  margin: 0;
+}
+
+.feedback-button {
+  margin-top: 8px;
+}
