@@ -1459,7 +1459,7 @@ body {
   background-size: 1170px auto;
   background-repeat: no-repeat;
   padding: 64px;
-  margin: 0 0 200px;
+  margin: 0 0 28px;
 }
 
 .feedback-container {
@@ -1527,6 +1527,7 @@ body {
 
 /*Первая колонка*/
 .footer-social-list {
+  position: static;
   margin-right: 120px;
   margin-left: 4px;
   max-width: 110px;
