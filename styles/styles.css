@@ -1013,6 +1013,10 @@ body {
 }
 
 /*Каталог*/
+.main-catalog {
+  margin-top: 49px;
+}
+
 /*Хлебные крошки*/
 .breadcrumbs {
   margin: 0 0 16px;
@@ -1074,7 +1078,7 @@ body {
   height: 1px;
   width: 100%;
   background-color: #2d3440;
-  bottom: -1px;
+  bottom: -2px;
   left: 0;
 }
 
