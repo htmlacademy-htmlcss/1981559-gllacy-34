@@ -1329,3 +1329,15 @@ body {
 .filler-control[type="checkbox"]:checked ~ .selected-filler-mark {
   display: block;
 }
+
+.filler-control[type="checkbox"]:hover ~ .filler-control-mark {
+  color: #fcfcfc;
+}
+
+.filler-control[type="checkbox"]:focus-visible ~ .filler-control-mark {
+  color: #fcfcfc;
+}
+
+.filler-control[type="checkbox"]:disabled ~ .filler-control-mark {
+  opacity: 0.5;
+}
