@@ -1091,11 +1091,18 @@ body {
 }
 
 /*Фильтр*/
+.catalog-filter-form {
+  display: flex;
+  flex-wrap: wrap;
+  gap: 16px 24px;
+}
+
 .filter-description {
   font-size: 14px;
   line-height: 20px;
   color: #2d3440;
   margin: 0 0 8px 16px;
+  padding: 0;
 }
 
 .form-items-style {
@@ -1138,7 +1145,9 @@ body {
 
 /*Range*/
 .range-cost {
-  width: 196px;
+  width: 164px;
+  margin-right: 16px;
+  margin-left: 16px;
 }
 
 .cost-description {
@@ -1149,7 +1158,7 @@ body {
   height: 2px;
   background-color: rgba(86,92,102, 0.3);
   position: relative;
-  margin-top: 28px;
+  margin: 25px 0 0;
 }
 
 .range-scale::before {
@@ -1157,10 +1166,10 @@ body {
   content: "";
   background-color: rgba(252,252,252, 0.3);
   border-radius: 20px;
-  width: calc(100% + 35px);
+  width: calc(100% + 32px);
   height: 36px;
-  bottom: -14px;
-  left: -23px;
+  bottom: -17px;
+  left: -16px;
 }
 
 .range-bar {
@@ -1183,8 +1192,8 @@ body {
 .range-toggle::before {
   content: "";
   position: absolute;
-  width: 6px;
-  height: 6px;
+  width: 4px;
+  height: 4px;
   background-color: #fcfcfc;
   border-radius: 50%;
   transform: translate(-50%, -50%);
@@ -1218,12 +1227,12 @@ body {
 }
 
 .toggle-min {
-  top: -8px;
+  top: -7px;
   left: -8px;
 }
 
 .toggle-max {
-  top: -8px;
+  top: -7px;
   right: -10px;
 }
 
@@ -1298,7 +1307,11 @@ body {
 .fillers-list {
   list-style-type: none;
   margin: 0;
-  padding: 0;
+  padding: 10px 48px;
+  display: flex;
+  gap: 30px;
+  background-color: rgba(252, 252, 252, 0.3);
+  border-radius: 18px;
 }
 
 .filler-control-label {
