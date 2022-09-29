@@ -1237,3 +1237,57 @@ body {
   background-color: rgba(252, 252, 252, 0.3);
   border-radius: 18px;
 }
+
+.bold-control-label {
+  font-size: 14px;
+  line-height: 20px;
+  color: #2d3440;
+  padding-left: 36px;
+  position: relative;
+  display: block;
+  cursor: pointer;
+}
+
+.bold-control-label:hover {
+  opacity: 0.6;
+}
+
+.bold-control-label:active {
+  opacity: 0.3;
+}
+
+.bold-control-label:disabled {
+  opacity: 0.1;
+}
+
+.bold-control-mark-radio {
+  position: absolute;
+  top: 0;
+  left: 0;
+  width: 16px;
+  height: 16px;
+  border: 2px solid #2d3440;
+  border-radius: 50%;
+}
+
+.bold-control-input[type="radio"]:checked + .bold-control-mark-radio::before {
+  position: absolute;
+  width: 6px;
+  height: 6px;
+  border-radius: 50%;
+  background-color: #2d3440;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  content: "";
+}
+
+/*.bold-control-input[type="radio"]:focus-visible + .bold-control-mark-radio::after {*/
+/*  position: absolute;*/
+/*  width: 20px;*/
+/*  height: 20px;*/
+/*  content: "";*/
+/*  outline: 2px solid #af4fff;*/
+/*  outline-offset: 4px;*/
+/*}*/
+
