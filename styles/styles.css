@@ -1231,7 +1231,9 @@ body {
 .bold-control-list {
   list-style-type: none;
   margin: 0;
-  padding: 0;
+  padding: 8px 24px;
   display: flex;
   gap: 30px;
+  background-color: rgba(252, 252, 252, 0.3);
+  border-radius: 18px;
 }
