@@ -1315,8 +1315,17 @@ body {
   position: absolute;
   top: 0;
   left: 0;
-  width: 16px;
-  height: 16px;
-  background-image: url("/images/checkbox/default-checkbox.svg");
-  background-repeat: no-repeat;
+  color: #2d3440;
+}
+
+.selected-filler-mark {
+  display: none;
+}
+
+.filler-control[type="checkbox"]:checked ~ .filler-control-mark {
+  display: none;
+}
+
+.filler-control[type="checkbox"]:checked ~ .selected-filler-mark {
+  display: block;
 }
