@@ -1354,4 +1354,23 @@ body {
   padding: 8px 32px;
   background-color: rgba(252, 252, 252, 0.3);
   outline: 2px solid #fcfcfc;
+  cursor: pointer;
+}
+
+.white-additional-button:hover {
+  background-color: #fcfcfc;
+  outline-color: rgba(252, 252, 252, 0.3);
+}
+
+.white-additional-button:active {
+  outline-color: rgba(252, 252, 252, 0.3);
+  background-color: rgba(252, 252, 252, 0.3);
+}
+
+.white-additional-button:focus-visible {
+  outline-color: #2d3440;
+}
+
+.white-additional-button:disabled {
+  opacity: 0.4;
 }
