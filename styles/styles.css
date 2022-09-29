@@ -1248,18 +1248,6 @@ body {
   cursor: pointer;
 }
 
-.bold-control-label:hover {
-  opacity: 0.6;
-}
-
-.bold-control-label:active {
-  opacity: 0.3;
-}
-
-.bold-control-label:disabled {
-  opacity: 0.1;
-}
-
 .bold-control-mark-radio {
   position: absolute;
   top: 0;
@@ -1268,6 +1256,14 @@ body {
   height: 16px;
   border: 2px solid #2d3440;
   border-radius: 50%;
+}
+
+.bold-control-input:hover + .bold-control-mark-radio{
+  border-color: #fcfcfc;
+}
+
+.bold-control-input:disabled + .bold-control-mark-radio{
+  opacity: 0.4;
 }
 
 .bold-control-input[type="radio"]:checked + .bold-control-mark-radio::before {
@@ -1282,12 +1278,19 @@ body {
   content: "";
 }
 
-/*.bold-control-input[type="radio"]:focus-visible + .bold-control-mark-radio::after {*/
-/*  position: absolute;*/
-/*  width: 20px;*/
-/*  height: 20px;*/
-/*  content: "";*/
-/*  outline: 2px solid #af4fff;*/
-/*  outline-offset: 4px;*/
-/*}*/
+.bold-control-input[type="radio"]:checked:hover + .bold-control-mark-radio::before {
+  background-color: #fcfcfc;
+}
+
+.bold-control-input[type="radio"]:checked:focus-visible + .bold-control-mark-radio::before {
+  background-color: #fcfcfc;
+}
+
+.bold-control-input[type="radio"]:checked:disabled + .bold-control-mark-radio::before {
+  opacity: 0.4;
+}
+
+.bold-control-input[type="radio"]:focus-visible + .bold-control-mark-radio {
+  border-color: #fcfcfc;
+}
 
