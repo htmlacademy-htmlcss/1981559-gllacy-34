@@ -1294,3 +1294,29 @@ body {
   border-color: #fcfcfc;
 }
 
+/*Fillers*/
+.fillers-list {
+  list-style-type: none;
+  margin: 0;
+  padding: 0;
+}
+
+.filler-control-label {
+  font-size: 14px;
+  line-height: 20px;
+  color: #2d3440;
+  padding-left: 36px;
+  position: relative;
+  display: block;
+  cursor: pointer;
+}
+
+.filler-control-mark {
+  position: absolute;
+  top: 0;
+  left: 0;
+  width: 16px;
+  height: 16px;
+  background-image: url("/images/checkbox/default-checkbox.svg");
+  background-repeat: no-repeat;
+}
