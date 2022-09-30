@@ -2035,3 +2035,20 @@ body {
 .search-result .goods-list {
   margin-top: 94px;
 }
+
+/*Пагинация*/
+.pagination {
+  display: flex;
+}
+
+.pagination-list {
+  list-style-type: none;
+  margin: 0;
+  padding: 0;
+  display: flex;
+  flex-wrap: wrap;
+}
+
+.pagination-link-inner {
+  text-decoration: none;
+}
