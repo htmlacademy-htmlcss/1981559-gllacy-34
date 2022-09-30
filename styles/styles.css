@@ -990,6 +990,7 @@ body {
   grid-column: 1 / 2;
   grid-row: 2 / 3;
   justify-self: center;
+  align-self: start;
   margin-top: -22px;
   margin-left: 152px;
 }
@@ -2051,12 +2052,12 @@ body {
   grid-row: 1 / 2;
 }
 
-/*Пагинация*/
-.pagination {
+/*Пагинация каталога*/
+.catalog-pagination {
   display: flex;
 }
 
-.pagination-list {
+.catalog-pagination-list {
   list-style-type: none;
   margin: 0;
   padding: 0;
