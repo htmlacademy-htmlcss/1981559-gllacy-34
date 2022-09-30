@@ -1803,6 +1803,7 @@ body {
   background-color: rgba(86,92,102, 0.3);
   position: relative;
   margin: 25px 0 0;
+  width: 100%;
 }
 
 .range-scale::before {
