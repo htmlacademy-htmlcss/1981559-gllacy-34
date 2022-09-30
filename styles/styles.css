@@ -666,7 +666,7 @@ body {
 
 /*Tooltip*/
 .tooltip-toggle {
-  background-image: url("/images/main/delivery/tooltip-icon.svg");
+  background-image: url("../images/main/delivery/tooltip-icon.svg");
   background-repeat: no-repeat;
   background-position: center;
   border-radius: 50%;
@@ -1258,7 +1258,7 @@ body {
 /*Блок особенностей*/
 .peculiarities {
   margin-bottom: 80px;
-  background-image: url("/images/main/peculiarities/wafer.jpg");
+  background-image: url("../images/main/peculiarities/wafer.jpg");
   background-size: cover;
   border-radius: 16px;
   padding: 24px;
@@ -1296,22 +1296,22 @@ body {
 /*Иконки для каждого элемента списка*/
 
 .ice-cream-icon {
-  background-image: url("/images/main/peculiarities/ice-cream-icon.svg");
+  background-image: url("../images/main/peculiarities/ice-cream-icon.svg");
   background-repeat: no-repeat;
 }
 
 .cow-icon {
-  background-image: url("/images/main/peculiarities/cow-icon.svg");
+  background-image: url("../images/main/peculiarities/cow-icon.svg");
   background-repeat: no-repeat;
 }
 
 .leaf-icon {
-  background-image: url("/images/main/peculiarities/leaf-icon.svg");
+  background-image: url("../images/main/peculiarities/leaf-icon.svg");
   background-repeat: no-repeat;
 }
 
 .thermometer-icon {
-  background-image: url("/images/main/peculiarities/thermometer-icon.svg");
+  background-image: url("../images/main/peculiarities/thermometer-icon.svg");
   background-repeat: no-repeat;
 }
 
@@ -1332,14 +1332,14 @@ body {
 
 .ice-cream-item {
   padding: 34px 32px 69px;
-  background-image: url("/images/main/subscription/ice-cream-background.jpg");
+  background-image: url("../images/main/subscription/ice-cream-background.jpg");
   background-position: top -105px right -74px;
   background-size: 651px auto;
   background-repeat: no-repeat;
 }
 
 .lines-background {
-  background-image: url("/images/main/subscription/lines-background.jpg");
+  background-image: url("../images/main/subscription/lines-background.jpg");
   background-size: cover;
   background-position: top left -6px;
 }
@@ -1404,7 +1404,7 @@ body {
 .delivery {
   margin-bottom: 79px;
   padding: 64px 64px 68px 100px;
-  background-image: url("/images/main/delivery/delivery-background.jpg");
+  background-image: url("../images/main/delivery/delivery-background.jpg");
   background-repeat: no-repeat;
   background-size: 1215px auto;
   background-position: 2px -138px;
@@ -1454,7 +1454,7 @@ body {
 .feedback {
   background-color: #dbb2b6;
   border-radius: 16px;
-  background-image: url("/images/main/feedback/feedback-background.jpg");
+  background-image: url("../images/main/feedback/feedback-background.jpg");
   background-position: top -82px right;
   background-size: 1170px auto;
   background-repeat: no-repeat;
@@ -1591,7 +1591,7 @@ body {
 
 .special-footer-link {
   font-weight: 700;
-  background-image: url("/images/footer/heart-icon.svg");
+  background-image: url("../images/footer/heart-icon.svg");
   background-repeat: no-repeat;
   background-position: left top 2px;
 }
@@ -1669,7 +1669,7 @@ body {
 }
 
 .breadcrumbs-item::after {
-  background-image: url("/images/main/breadcrumbs-arrows.svg");
+  background-image: url("../images/main/breadcrumbs-arrows.svg");
   width: 12px;
   height: 12px;
   content: "";
@@ -1754,7 +1754,7 @@ body {
   cursor: pointer;
   -webkit-appearance: none;
   appearance: none;
-  background-image: url("/images/main/select-arrow.svg");
+  background-image: url("../images/main/select-arrow.svg");
   background-repeat: no-repeat;
   background-position: right 13px top 10px;
   box-sizing: border-box;
