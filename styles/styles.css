@@ -2062,17 +2062,19 @@ body {
   display: block;
   color: #2d3440;
   position: relative;
+  padding: 0 5px;
 }
 
 .catalog-pagination-link-button:first-child {
   transform: rotate(180deg);
   color: rgba(45,52,64, 0.3);
-  margin: -1px 14px 0 4px;
+  margin: -1px 9px 0 -1px;
   align-self: start;
 }
 
 .catalog-pagination-link-button:last-child {
-  margin-left: 14px;
+  margin-left: 9px;
+  margin-right: -2px;
 }
 
 .catalog-pagination-link-button::before {
@@ -2083,7 +2085,7 @@ body {
   border-radius: 50%;
   background-color: rgba(252, 252, 252, 0.5);
   top: -1px;
-  left: -10px;
+  left: -5px;
   z-index: -1;
   display: none;
 }
@@ -2108,8 +2110,6 @@ body {
   outline-offset: -1px;
   background-color: rgba(252, 252, 252, 0.3);
 }
-
-
 
 .catalog-pagination-list {
   list-style-type: none;
