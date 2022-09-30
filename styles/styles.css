@@ -2030,3 +2030,8 @@ body {
   margin-left: -7px;
   align-self: flex-end;
 }
+
+/*Результат поиска*/
+.search-result .goods-list {
+  margin-top: 94px;
+}
