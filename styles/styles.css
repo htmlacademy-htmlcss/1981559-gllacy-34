@@ -2044,6 +2044,7 @@ body {
 .search-result {
   display: grid;
   grid-template-columns: 1fr 169px;
+  margin-bottom: 113px;
 }
 
 .search-result .goods-list {
