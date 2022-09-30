@@ -986,6 +986,14 @@ body {
   margin: 0 0 47px;
 }
 
+.show-more-button {
+  grid-column: 1 / 2;
+  grid-row: 2 / 3;
+  justify-self: center;
+  margin-top: -22px;
+  margin-left: 152px;
+}
+
 /*Pagination*/
 .slider-pagination {
   padding: 0;
@@ -2032,8 +2040,15 @@ body {
 }
 
 /*Результат поиска*/
+.search-result {
+  display: grid;
+  grid-template-columns: 1fr 168px;
+}
+
 .search-result .goods-list {
   margin-top: 94px;
+  grid-column: 1 / 3;
+  grid-row: 1 / 2;
 }
 
 /*Пагинация*/
