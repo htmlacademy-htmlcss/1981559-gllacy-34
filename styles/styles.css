@@ -2043,7 +2043,7 @@ body {
 /*Результат поиска*/
 .search-result {
   display: grid;
-  grid-template-columns: 1fr 168px;
+  grid-template-columns: 1fr 169px;
 }
 
 .search-result .goods-list {
@@ -2055,27 +2055,28 @@ body {
 /*Пагинация каталога*/
 .catalog-pagination {
   display: flex;
+  margin-top: -11px;
 }
 
 .catalog-pagination-link-button {
   display: block;
   color: #2d3440;
-  padding: 2px 4px;
 }
 
 .catalog-pagination-link-button:first-child {
   transform: rotate(180deg);
   opacity: 0.3;
-  margin-right: 22px;
+  margin: -1px 14px 0 4px;
+  align-self: start;
 }
 
 .catalog-pagination-link-button:last-child {
-  margin-left: 22px;
+  margin-left: 14px;
 }
 
 .catalog-pagination-list {
   list-style-type: none;
-  margin: 0;
+  margin: -1px 0 0;
   padding: 0;
   display: flex;
   flex-wrap: wrap;
@@ -2085,8 +2086,12 @@ body {
   text-decoration: none;
   line-height: 20px;
   color: #2d3440;
-  padding: 2px 8px;
   border-radius: 50%;
+  width: 24px;
+  height: 24px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
 }
 
 .catalog-pagination-link-inner:hover {
@@ -2102,4 +2107,8 @@ body {
   background-color: rgba(252, 252, 252, 0.3);
   outline: 1px solid #2d3440;
   outline-offset: -1px;
+}
+
+.present-page {
+  background-color: #fcfcfc;
 }
