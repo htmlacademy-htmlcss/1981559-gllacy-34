@@ -1612,7 +1612,7 @@ body {
 
 .special-footer-link {
   font-weight: 700;
-  background-image: url("/images/footer/heart-icon.svg");
+  background-image: url("../images/footer/heart-icon.svg");
   background-repeat: no-repeat;
   background-position: left top 2px;
 }
