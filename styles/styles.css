@@ -158,6 +158,10 @@ body {
   position: relative;
 }
 
+.navigation-link:hover ~ .popover-is-closed {
+  display: block;
+}
+
 .navigation-wrapper-popover {
   background-color: #fcfcfc;
   border-radius: 4px;
@@ -654,6 +658,10 @@ body {
 /*Закрытый popover*/
 .popover-is-closed {
   display: none;
+}
+
+.popover-is-closed:hover {
+  display: block;
 }
 
 .empty-bin-title {
