@@ -65,6 +65,9 @@ body {
   margin: 0 auto;
   padding-left: 98px;
   padding-right: 98px;
+  display: flex;
+  flex-direction: column;
+  flex-grow: 1;
 }
 
 /*Цвет фона страницы*/
