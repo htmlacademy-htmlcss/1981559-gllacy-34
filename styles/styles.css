@@ -2013,7 +2013,7 @@ body {
   border-radius: 20px;
   padding: 8px 53px;
   background-color: rgba(252, 252, 252, 0.3);
-  outline: 2px solid #fcfcfc;
+  outline: 3px solid #fcfcfc;
   cursor: pointer;
 }
 
